@@ -97,3 +97,20 @@ LIMIT 10
 </p>
 
 Se confirman los mismos resultados obtenidos en el analisis de los vendedores vs sus clientes. Debido a que este algoritmo identifica los números de relaciones entrantes y salientes del nodo.
+
+***•	Camino mas corto***
+Se busca el diametro del grafo para los vendedores y clientes, tomando el camino mas corto. Para eso se usa el siguiente código:
+
+```cypher
+MATCH (U1:USUARIO)-[:OPINA]-(U2:USUARIO) WHERE id(U1) > id(U2)
+MATCH path = shortestPath((U1)-[:OPINA]-(U2))
+RETURN path, length(path) AS len
+ORDER BY len DESC
+LIMIT 100
+```
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/6_SHORTEST_PATH.png">
+</p>
+
+Tomando el camino mas corto, se identifica que hay nodos separados de la red y un grupo de nodos unidos.
