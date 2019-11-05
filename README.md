@@ -91,7 +91,7 @@ RETURN algo.asNode(nodeId).CODIGO AS USUARIO, score
 ORDER BY score DESC
 LIMIT 10
 ```
-<div style="text-align: center">
+<div style="text-align: justify">
 ![5 grado de centralidad](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png)
 </div>
 
