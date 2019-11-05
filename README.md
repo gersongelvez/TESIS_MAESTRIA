@@ -91,9 +91,7 @@ RETURN algo.asNode(nodeId).CODIGO AS USUARIO, score
 ORDER BY score DESC
 LIMIT 10
 ```
-<div style="text-align: justify">
-![5 grado de centralidad](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png)
-</div>
+:![5 grado de centralidad](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png):
 
 
 Se confirman los mismos resultados obtenidos en el analisis de los vendedores vs sus clientes. Debido a que este algoritmo identifica los números de relaciones entrantes y salientes del nodo.
