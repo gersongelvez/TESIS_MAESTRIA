@@ -45,7 +45,7 @@ Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones
 Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
 Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesan el grafo para el cálculo utilizando caminos aleatorios, búsquedas de amplitud o de profundidad o coincidencia de patrones.
 
-•	Resumen estadístico
+***•	Resumen estadístico***
 
 Se hace una exploración del conjunto de datos antes de ejecutar algoritmos más complejos. 
 
@@ -77,3 +77,21 @@ Analizando la información de productos ofertados y vendidos por los vendedores.
 ![Vendedores vs cantidad de clientes](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/0_4_VENDEDORES_VS_CANTIDAD_DE_CLIENTES.png)
 
 Haciendo una revisión de los vendedores y la cantidad de clientes, se identifica que los vendedores _WILLINTON_MX_, _GAB_AFN_, _SANDERS712_ Y _CELLUPARTESCELLUPARTES_ son los que tienen mas clientes con un valor de 3.100.
+
+***•	Grado de centralidad***
+
+Este algoritmo mide el número de relaciones entrantes y salientes de un nodo. Con esto se puede identificar los nodos más populares en el grafo. Con el siguiente comando se puede aplicar este algoritmo:
+
+```cypher
+CALL algo.degree.stream("USUARIO", "OPINA", {
+  direction: "BOTH"
+})
+YIELD nodeId, score
+RETURN algo.asNode(nodeId).CODIGO AS USUARIO, score
+ORDER BY score DESC
+LIMIT 10
+```
+
+![5 grado de centralidad](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png)
+
+Se confirman los mismos resultados obtenidos en el analisis de los vendedores vs sus clientes. Debido a que este algoritmo identifica los números de relaciones entrantes y salientes del nodo.
