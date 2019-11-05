@@ -116,7 +116,17 @@ LIMIT 100
 Tomando el camino mas corto, se identifica que hay nodos separados de la red y un grupo de nodos unidos.
 
 ***•	Betweenness Centrality***
+
 Con este algoritmo se puede identificar el vendedor mas influyente en el grafo.
+```cypher
+CALL algo.betweenness.stream("USUARIO", "OPINA", {
+  direction: "BOTH"
+})
+YIELD nodeId, centrality
+RETURN algo.asNode(nodeId).CODIGO, centrality
+ORDER BY centrality DESC
+LIMIT 10
+```
 
 <p align="center">
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/9_Betweenness_Centrality.png">
