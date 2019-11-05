@@ -99,7 +99,7 @@ LIMIT 10
 ->Text<-
 ```Text```
 <p align="center">
-  ![5 grado de centralidad](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png)
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png">
 </p>
 
 Se confirman los mismos resultados obtenidos en el analisis de los vendedores vs sus clientes. Debido a que este algoritmo identifica los números de relaciones entrantes y salientes del nodo.
