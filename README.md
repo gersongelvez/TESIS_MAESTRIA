@@ -98,5 +98,8 @@ LIMIT 10
 
 ->Text<-
 ```Text```
+<p align="center">
+  This is an image
+</p>
 
 Se confirman los mismos resultados obtenidos en el analisis de los vendedores vs sus clientes. Debido a que este algoritmo identifica los números de relaciones entrantes y salientes del nodo.
