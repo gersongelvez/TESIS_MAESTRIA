@@ -114,3 +114,12 @@ LIMIT 100
 </p>
 
 Tomando el camino mas corto, se identifica que hay nodos separados de la red y un grupo de nodos unidos.
+
+***•	Betweenness Centrality***
+Con este algoritmo se puede identificar el vendedor mas influyente en el grafo.
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/9_Betweenness_Centrality.png">
+</p>
+
+Se identifica que el vendedor mas influyente es _GAB_AFN_.
