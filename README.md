@@ -38,3 +38,42 @@ match(uv:usuario)-[ro:opina]-(uc:usuario) return ro.tipo_opinion as tipo, ro.fec
 
 ```
 
+
+# Aplicar algoritmos Neo4j sobre el conjunto de datos de Mercadolibre
+
+Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones.
+Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
+Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesan el grafo para el cálculo utilizando caminos aleatorios, búsquedas de amplitud o de profundidad o coincidencia de patrones.
+
+•	Resumen estadístico
+
+Se hace una exploración del conjunto de datos antes de ejecutar algoritmos más complejos. 
+
+La siguiente consulta da un detalle de los vendedores y las de categorias de los productos que venden.
+
+```cypher
+match 
+	(U:USUARIO)-[RUP:VENDE]-(P:PRODUCTO) 
+	optional match (P)-[RPC1:CLASIFICADO_EN {NIVEL:'0'} ]-(C1:CATEGORIA) 
+	optional match (P)-[RPC2:CLASIFICADO_EN {NIVEL:'1'} ]-(C2:CATEGORIA) 
+	optional match (P)-[RPC3:CLASIFICADO_EN {NIVEL:'2'} ]-(C3:CATEGORIA)
+	optional match (P)-[RPC4:CLASIFICADO_EN {NIVEL:'3'} ]-(C4:CATEGORIA)
+	optional match (P)-[RPC5:CLASIFICADO_EN {NIVEL:'4'} ]-(C5:CATEGORIA)
+RETURN
+	U.CODIGO, 'VEN '+ID(U) AS ALIAS1, U.ID AS ALIAS2, COALESCE(C3.ID,'') as CATEGORIA_GENERAL, COALESCE(C3.ID,'')+' - '+COALESCE(C4.ID,'') as CATEGORIA, COUNT(P.NOMBRE) AS OFERTADOS, SUM(toInt(COALESCE(P.VENDIDOS,0))) AS VENDIDOS
+ORDER BY VENDIDOS DESC
+```
+
+Analizando los datos que se generan en la consulta anterior:
+
+![Grafo productos de mercadolibre](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/0_2 PRODUCTOS VENDIDOS.png)
+
+Se identifica que los productos mas vendidos son los XIAOMI seguidos por los HUAWEI. Sin embargo los productos mas ofertados son los HUAWEI seguido por APPLE y SAMSUMG.
+
+![Grafo productos de mercadolibre](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/0_3 VENDEDORES VS PRODUCTOS.png)
+
+Analizando la información de productos ofertados y vendidos por los vendedores. Se identifica que el vendedor que tiene más productos vendidos es _MEGATIENDAVIRTUAL77_ con 716.964 productos sin embargo de estos solo se han ofertado 1.607. Se identifica que el vendedor que tiene más productos ofertados es _EVERPRINTBOGOTA_ con 3.309 productos sin embargo de estos no se registra la venta de ninguno.
+
+![Vendedores vs cantidad de clientes](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/0_4 VENDEDORES VS CANTIDAD DE CLIENTES.png)
+
+Haciendo una revisión de los vendedores y la cantidad de clientes, se identifica que los vendedores _WILLINTON_MX_, _GAB_AFN_, _SANDERS712_ Y _CELLUPARTESCELLUPARTES_ son los que tienen mas clientes con un valor de 3.100.
