@@ -196,3 +196,111 @@ LIMIT 10
 <p align="center">
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/19_USUARIO_BIEN_CONECTADA.png">
 </p>
+
+***•	Closeness Centrality: Wasserman and Faust / Harmonic***
+
+
+Por lo tanto, el algoritmo de centralidad de proximidad realmente mide la lejanía de un nodo a todos los demás nodos en el mismo componente conectado. Si queremos encontrar la lejanía para todos los demás nodos en el gráfico, podemos usar las variantes de Wasserman y Faust o Harmonic del algoritmo.
+
+***Wasserman and Faust***
+
+```cypher
+CALL algo.closeness.stream("USUARIO", "OPINA", {
+  direction: "BOTH", improved: true
+})
+YIELD nodeId, centrality
+RETURN algo.asNode(nodeId).CODIGO, centrality
+ORDER BY centrality DESC
+LIMIT 10
+```
+
+***Harmonic***
+
+```cypher
+CALL algo.closeness.harmonic.stream("USUARIO", "OPINA", {
+  direction: "BOTH"
+})
+YIELD nodeId, centrality
+RETURN algo.asNode(nodeId).CODIGO, centrality
+ORDER BY centrality DESC
+LIMIT 10
+```
+
+***•	PageRank***
+
+Esta es otra versión de la centralidad de grado ponderado con un ciclo de retroalimentación. Esta vez, solo obtienes tu "parte justa" de la importancia de tu vecino.
+
+es decir, la importancia de su vecino se divide entre sus vecinos, proporcional al número de interacciones con ese vecino.
+
+Intuitivamente, PageRank captura cuán efectivamente está aprovechando sus contactos de red. En nuestro contexto, la centralidad de PageRank captura muy bien la tensión narrativa. De hecho, los desarrollos importantes ocurren cuando dos personajes importantes interactúan.
+
+```cypher
+CALL algo.pageRank("USUARIO", "OPINA", {direction: "BOTH", writeProperty:'PAGE_RANK'})
+```
+
+```cypher
+CALL algo.pageRank.stream('USUARIO', 'OPINA', {iterations:20, dampingFactor:0.85})
+YIELD nodeId, score
+RETURN algo.getNodeById(nodeId).CODIGO AS USUARIO, score
+ORDER BY score DESC
+```
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/22_2_QUERYING_Calculating_PageRank.png">
+</p>
+
+***•	Community Detection***
+
+Podemos detectar comunidades en nuestros datos ejecutando un algoritmo que atraviesa la estructura del gráfico para encontrar subgráficos altamente conectados con menos conexiones que otros subgráficos.
+
+Ejecute la siguiente consulta para calcular las comunidades que existen en función de las interacciones en todas las estaciones.
+
+```cypher
+CALL algo.labelPropagation(
+  'MATCH (U:USUARIO) RETURN id(U) as id',
+  'MATCH (U:USUARIO)-[R:OPINA]-(U2) RETURN id(U) as source, id(U2) as target, SUM(R.weight) as weight',
+  {graph:'cypher', partitionProperty: 'community'})
+```
+
+***Analizando las comunidades***
+  
+```cypher
+MATCH (U:USUARIO)
+WHERE exists(U.community)
+RETURN U.community, count(*) AS count
+ORDER BY count DESC
+```
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/25_Querying_Communities_USUARIO.png">
+</p>
+
+```cypher
+CALL algo.pageRank(
+  'MATCH (U:USUARIO) RETURN id(U) as id',
+  'MATCH (U:USUARIO)-[rel:OPINA]-(U2) RETURN id(U) as source,id(U2) as target, SUM(rel.weight) as weight',
+  {graph:'cypher', writeProperty: 'pageRank'})  
+```
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/25_Querying_Communities_USUARIO.png">
+</p>
+
+***Visualizando las comunidades***
+
+
+Podemos escribir el siguiente código para ver la interaccion entre las personas de mercadolibre:
+
+```cypher
+MATCH (U:USUARIO) WHERE exists(U.community)
+WITH U.community AS community, COUNT(*) AS count
+ORDER BY count DESC
+SKIP 1 LIMIT 1
+MATCH path = (U:USUARIO {community: community})--(U2:USUARIO {community: community})
+RETURN path
+```
+
+El grafo se ve desde la siguiente manera:
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/27 Visualising Communities.png">
+</p>
