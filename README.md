@@ -133,3 +133,63 @@ LIMIT 10
 </p>
 
 Se identifica que el vendedor mas influyente es _GAB_AFN_.
+
+
+***•	Almacenando el score del algoritmo Betweenness Centrality***
+
+Debido a que normalmente los grafos son demasiado grandes, una manera óptima es almacenar el valor de retornado por el algoritmo en cada nodo, para así posteriormente se puedan hacer consultas subconjuntos del grafo.
+
+El siguiente código fuente almancena el resultado del algoritmo en la propiedad BETWEENNESS_CENTRALITY del nodo USUARIO: 
+
+```cypher
+CALL algo.betweenness("USUARIO", "OPINA", {direction: "BOTH", writeProperty: "BETWEENNESS_CENTRALITY"})
+```
+
+```cypher
+Con el valor almacenado, se puede proceder a consultar:
+MATCH (U:USUARIO)
+RETURN U.CODIGO, U.BETWEENNESS_CENTRALITY AS centrality
+ORDER BY centrality DESC
+LIMIT 10
+```
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/12_Querying_Betweenness_Centrality.png">
+</p>
+
+
+***•	Closeness Centrality***
+
+La centralidad de proximidad es una forma de detectar nodos que pueden difundir información de manera muy eficiente a través de un gráfico. La centralidad de proximidad de un nodo mide su lejanía promedio (distancia inversa) a todos los demás nodos. Los nodos con un alto puntaje de cercanía tienen las distancias más cortas a todos los demás nodos.
+
+Podemos ejecutar este algoritmo sobre los usuarios de mercadolibre:
+
+```cypher
+CALL algo.closeness.stream("USUARIO", "OPINA", {
+  direction: "BOTH"
+})
+YIELD nodeId, centrality
+RETURN algo.asNode(nodeId).CODIGO, centrality
+ORDER BY centrality DESC
+LIMIT 10
+```
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/18_Closeness_Centrality.png">
+</p>
+
+
+***•	Usuarios bien conectados***
+
+¿Por qué Daenerys está tan bien conectado?
+
+De manera predeterminada, el algoritmo de Centralidad de cercanía calcula la conexión de un nodo con todos los nodos a los que puede llegar. Podemos ejecutar el algoritmo de componentes conectados para encontrar conjuntos de nodos que tengan rutas entre sí.
+
+```cypher
+CALL algo.unionFind.stream("USUARIO", "OPINA", {
+  direction: "BOTH"
+})
+YIELD nodeId, setId
+WITH setId, collect(algo.asNode(nodeId).CODIGO) AS USUARIO
+RETURN setId, USUARIO, size(USUARIO) AS size
+ORDER BY size(USUARIO) DESC
+LIMIT 10
+```
