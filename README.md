@@ -193,3 +193,6 @@ RETURN setId, USUARIO, size(USUARIO) AS size
 ORDER BY size(USUARIO) DESC
 LIMIT 10
 ```
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/19_USUARIO_BIEN_CONECTADA.png">
+</p>
