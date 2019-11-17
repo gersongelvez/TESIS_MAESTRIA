@@ -20,9 +20,11 @@ Este artículo se ejecuta  con el fin de hacer un aporte académico a la comunid
 
 * Compartir a la comunidad un set de datos para que se pueda hacer analítica de datos con finalidades académicas.
 
-* Incentivar el uso de bases de datos orientadas a grafos para la analítica de datos
+* Hacer el análisis de la información mediante analítica descriptiva tradicional.
 
-* Dar una guia del uso de la analitica de grafos  sobre datos rales de mercado libre  incrementando el material educativo existente. 
+* Hacer el análisis de la información mediante analítica descriptiva usando algoritmos de grafos.
+
+* Visualizar los resultados 
 
 
 # Esquema del grafo
