@@ -47,7 +47,7 @@ La información de compras y ventas en la categoría de tecnología de mercadoli
  
 La misma información se puede expresar en un esquema de grafos de la siguiente manera:
 
-![Grafo productos de mercadolibre](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/0_1_Grafo.jpg)
+![Grafo productos de mercadolibre](https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/4_3_GRAFO.png)
  
 # Importar datos en Neo4j
 
