@@ -1,4 +1,7 @@
+<p align="center">
 # Analítica de Grafos Sobre Productos de Mercado Libre
+</p>
+
 Se suben los artefactos para la tesis de analitica de datos con neo4j
 
 # Esquema del grafo
