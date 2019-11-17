@@ -36,9 +36,9 @@ Se describe el paso a paso la ejecución de este trabajo y los resultados
 * Tecnologías: La información se extrae mediante técnicas de webscraping con tecnologías de JAVA y PYTHON. Se usa NEO4J para almacenar la información en un esquema de grafos y usar sus algoritmos. Se usa la libreria JavaScript NEOVIS.JS para la visualización de información.
 * Dominio de la información extraida: Para asegurar que la información extraída de la página www.mercadolibre.com.co tenga un alcance definido. Se toman los siguientes criterios:
 
-** Información de Bogotá, Colombia
-** Información de la categoría de tecnología
-** Se ejecutan procesos paralelos de extracción de información que filtran los datos por País (Colombia), Ciudad (Bogotá), 		   Sector de bogotá, Categoría.
+**    Información de Bogotá, Colombia
+**    Información de la categoría de tecnología
+**    Se ejecutan procesos paralelos de extracción de información que filtran los datos por País (Colombia), Ciudad (Bogotá), 		   Sector de bogotá, Categoría.
 
 # Esquema del grafo
 La información de compras y ventas en la categoría de tecnología de mercadolibre para la ciudad de Bogotá. Se puede esquematizar en un modelo relacional de la siguiente forma:
