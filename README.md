@@ -26,6 +26,8 @@ Este artículo se ejecuta  con el fin de hacer un aporte académico a la comunid
 
 * Visualizar los resultados 
 
+# 3. Problema
+No hay un set de datos con información de Bogotá, Colombia, sobre una tienda online y su respectiva guía para hacer analítica de grafos. Con este trabajo se consolida la información pública, presente en la página www.mercadolibre.com sobre vendedores, compradores y productos de tecnología en la ciudad de Bogotá. Se crea una guía o laboratorio donde se explica cómo aplicar analítica de grafos sobre el set de datos consolidado.
 
 # Esquema del grafo
 La información de compras y ventas en la categoría de tecnología de mercadolibre para la ciudad de Bogotá. Se puede esquematizar en un modelo relacional de la siguiente forma:
