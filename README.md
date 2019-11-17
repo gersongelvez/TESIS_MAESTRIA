@@ -2,7 +2,28 @@
 <h1>Analítica de Grafos Sobre Productos de Mercado Libre</h1>
 </p>
 
-Se suben los artefactos para la tesis de analitica de datos con neo4j
+
+# 1. Introducción
+Este artículo es una guía con enfoque académico para aplicar analítica de grafos y computar métricas de grafos, nodos y relaciones sobre grandes volúmenes de datos.
+Incrementar la documentación y sets de datos disponibles a la comunidad interesada en aprender o profundizar en temas relacionados con analítica de grafos.
+Este trabajo se realiza en la ciudad de Bogotá, tomando como información base, los datos públicos alojados en la página web Mercadolibre.com, en la categoría de tecnología.
+Se implementa con las tecnologías Java, Python y Neo4j.
+
+# 2. Objetivos
+
+## 2.1. Objetivo general
+
+Este artículo se ejecuta  con el fin de hacer un aporte académico a la comunidad interesada en aprender o profundizar en analítica de grafos. 
+
+
+## 2.2. Objetivos específicos
+
+* Compartir a la comunidad un set de datos para que se pueda hacer analítica de datos con finalidades académicas.
+
+* Incentivar el uso de bases de datos orientadas a grafos para la analítica de datos
+
+* Dar una guia del uso de la analitica de grafos  sobre datos rales de mercado libre  incrementando el material educativo existente. 
+
 
 # Esquema del grafo
 La información de compras y ventas en la categoría de tecnología de mercadolibre para la ciudad de Bogotá. Se puede esquematizar en un modelo relacional de la siguiente forma:
