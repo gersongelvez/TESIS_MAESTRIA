@@ -27,14 +27,15 @@ Este artículo se ejecuta  con el fin de hacer un aporte académico a la comunid
 * Visualizar los resultados 
 
 # 3. Problema
-No hay un set de datos con información de Bogotá, Colombia, sobre una tienda online y su respectiva guía para hacer analítica de grafos. Con este trabajo se consolida la información pública, presente en la página www.mercadolibre.com sobre vendedores, compradores y productos de tecnología en la ciudad de Bogotá. Se crea una guía o laboratorio donde se explica cómo aplicar analítica de grafos sobre el set de datos consolidado.
+No hay un set de datos con información de Bogotá, Colombia, sobre una tienda online y su respectiva guía para hacer analítica de grafos. Con este trabajo se consolida la información pública, presente en la página www.mercadolibre.com.co sobre vendedores, compradores y productos de tecnología en la ciudad de Bogotá. Se crea una guía o laboratorio donde se explica cómo aplicar analítica de grafos sobre el set de datos consolidado.
 
 # 4. Método
 Se describe el paso a paso la ejecución de este trabajo y los resultados
 
 # 4.1. Extracción de la información
 * Tecnologías: La información se extrae mediante técnicas de webscraping con tecnologías de JAVA y PYTHON. Se usa NEO4J para almacenar la información en un esquema de grafos y usar sus algoritmos. Se usa la libreria JavaScript NEOVIS.JS para la visualización de información.
-* Dominio de la información extraida: Para asegurar que la información extraída de la página www.mercadolibre.com tenga un alcance definido. Se toman los siguientes criterios:
+* Dominio de la información extraida: Para asegurar que la información extraída de la página www.mercadolibre.com.co tenga un alcance definido. Se toman los siguientes criterios:
+
 	a. Información de Bogotá, Colombia
 	b. Información de la categoría de tecnología
 	c. Se ejecutan procesos paralelos de extracción de información que filtran los datos por País (Colombia), Ciudad (Bogotá), 		   Sector de bogotá, Categoría.
