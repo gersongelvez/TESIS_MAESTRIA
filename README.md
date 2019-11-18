@@ -123,7 +123,7 @@ Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones
 Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
 Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesan el grafo para el cálculo utilizando caminos aleatorios, búsquedas de amplitud o de profundidad o coincidencia de patrones.
 
-***•	Resumen estadístico***
+***•	Resumen estadístico tradicional***
 
 Se hace una exploración del conjunto de datos antes de ejecutar algoritmos más complejos. 
 
@@ -156,9 +156,40 @@ Analizando la información de productos ofertados y vendidos por los vendedores.
 
 Haciendo una revisión de los vendedores y la cantidad de clientes, se identifica que los vendedores _WILLINTON_MX_, _GAB_AFN_, _SANDERS712_ Y _CELLUPARTESCELLUPARTES_ son los que tienen mas clientes con un valor de 3.100.
 
+
+***•	Resumen estadístico mediante algoritmos de grafos***
+Se puede identificar el comportamiento de la información mediante unos algoritmos proporcionados por NEO4J. Se pueden responder unas preguntas.
+
+
+***•	PageRank***
+
+PageRank es el más conocido de los algoritmos de centralidad. Mide la transitiva influencia de los nodos. PageRank considera la influencia de un nodo vecino y sus vecinos. Por ejemplo, tener unos pocos nodos vecinos muy poderosos
+pueden hacer el nodo más influyente que tener muchos vecinos menos poderosos. 
+
+Con lo anterior, podemos responder a la pregunta ¿Cuales son los usuarios mas poderosos del grafo?
+
+Para dar respuesta a esa pregunta, se ejecuta el siguiente algoritmo:
+
+```cypher
+CALL algo.pageRank("USUARIO", "OPINA", {direction: "BOTH", writeProperty:'PAGE_RANK'})
+```
+
+```cypher
+CALL algo.pageRank.stream('USUARIO', 'OPINA', {iterations:20, dampingFactor:0.85})
+YIELD nodeId, score
+RETURN algo.getNodeById(nodeId).CODIGO AS USUARIO, score
+ORDER BY score DESC
+```
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/22_2_QUERYING_Calculating_PageRank.png">
+</p>
+
+Con lo anterior se puede identificar que los usuarios "CELLUPARTESCELLUPARTES", "WILLINTONMX", "GAB_AFN" Y "SANDERS712" son los mas poderosos del grafo.
+
 ***•	Grado de centralidad***
 
-Este algoritmo mide el número de relaciones entrantes y salientes de un nodo. Con esto se puede identificar los nodos más populares en el grafo. Con el siguiente comando se puede aplicar este algoritmo:
+Cuál es el usuario mas popular en el grafo?
 
 ```cypher
 CALL algo.degree.stream("USUARIO", "OPINA", {
@@ -174,7 +205,7 @@ LIMIT 10
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png">
 </p>
 
-Se confirman los mismos resultados obtenidos en el analisis de los vendedores vs sus clientes. Debido a que este algoritmo identifica los números de relaciones entrantes y salientes del nodo.
+El algoritmo "Degree Centrality" ayuda a identificar el nodo mas popular en el grafo, dando un score según el número de relaciones entrantes y salientes. Para el grafo que se está analizando, se identifica que los USUARIOS mas populares son "GAB_AFN", "WILLINTONMX" y "CELLUPARTESCELLUPARTES".
 
 ***•	Camino mas corto***
 Se busca el diametro del grafo para los vendedores y clientes, tomando el camino mas corto. Para eso se usa el siguiente código:
@@ -233,6 +264,8 @@ LIMIT 10
 <p align="center">
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/12_Querying_Betweenness_Centrality.png">
 </p>
+
+
 
 
 ***•	Closeness Centrality***
@@ -304,28 +337,7 @@ ORDER BY centrality DESC
 LIMIT 10
 ```
 
-***•	PageRank***
 
-Esta es otra versión de la centralidad de grado ponderado con un ciclo de retroalimentación. Esta vez, solo obtienes tu "parte justa" de la importancia de tu vecino.
-
-es decir, la importancia de su vecino se divide entre sus vecinos, proporcional al número de interacciones con ese vecino.
-
-Intuitivamente, PageRank captura cuán efectivamente está aprovechando sus contactos de red. En nuestro contexto, la centralidad de PageRank captura muy bien la tensión narrativa. De hecho, los desarrollos importantes ocurren cuando dos personajes importantes interactúan.
-
-```cypher
-CALL algo.pageRank("USUARIO", "OPINA", {direction: "BOTH", writeProperty:'PAGE_RANK'})
-```
-
-```cypher
-CALL algo.pageRank.stream('USUARIO', 'OPINA', {iterations:20, dampingFactor:0.85})
-YIELD nodeId, score
-RETURN algo.getNodeById(nodeId).CODIGO AS USUARIO, score
-ORDER BY score DESC
-```
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/22_2_QUERYING_Calculating_PageRank.png">
-</p>
 
 ***•	Community Detection***
 
