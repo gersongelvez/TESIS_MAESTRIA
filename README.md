@@ -52,7 +52,7 @@ La misma información se puede expresar en un esquema de grafos de la siguiente 
 El grafo anteriormente presentado se describe mediante el diccionario de datos:
 
 <p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/4_3_DICCIONARIO_DATOS.jpg">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/4_3_DICCIONARIO_DATOS_2.jpg">
 </p>
  
 # Importar datos en Neo4j
