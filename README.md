@@ -55,7 +55,7 @@ El grafo anteriormente presentado se describe mediante el diccionario de datos:
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/4_3_DICCIONARIO_DATOS_2.jpg">
 </p>
  
-# Importar datos en Neo4j
+# 4.3 Importar datos en Neo4j
 
 La información recolectada con técnicas de webscraping se plasma en archivos CSV. Neo4j con su lenguaje Cypher proporciona una opción de importación de datos, usando el comando LOAD CSV para transformar el contenido de los archivos CSV a una estructura de grafos.
 Se deben seguir los siguientes pasos para cargar los datos a Neo4j:
@@ -117,7 +117,7 @@ MATCH (P:PRODUCTO),(C:CATEGORIA) WHERE P.ID=row.PRODUCTO_ID AND C.ID=row.CATEGOR
 ```
 
 
-# Aplicar algoritmos Neo4j sobre el conjunto de datos de Mercadolibre
+# 4.4 Aplicar algoritmos Neo4j sobre el conjunto de datos de Mercadolibre
 
 Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones.
 Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
