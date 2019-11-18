@@ -187,6 +187,33 @@ ORDER BY score DESC
 
 Con lo anterior se puede identificar que los usuarios "CELLUPARTESCELLUPARTES", "WILLINTONMX", "GAB_AFN" Y "SANDERS712" son los mas poderosos del grafo.
 
+
+
+***•	Community Detection - Label propagation***
+
+El algoritmo de propagación de etiquetas (LPA) es un algoritmo rápido para encontrar comunidades
+en un grafo, los nodos seleccionan su grupo en función de sus vecinos directos. Este proceso
+es adecuado para redes donde las agrupaciones son menos claras y se pueden usar pesos
+para ayudar a un nodo a determinar en qué comunidad ubicarse.
+
+Se puede detectar comunidades en los datos ejecutando un algoritmo que atraviesa la estructura del grafo para encontrar subgrafos altamente conectados con menos conexiones que otros.
+
+Con lo anterior se puede dar respuesta a la pregunta ¿Cuantas comunidades existen y tamaño tiene cada una?
+
+```cypher
+CALL algo.labelPropagation('USUARIO','OPINA','OUTGOING', {write:true, partitionProperty: "community", weightProperty:"count"})
+```
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/2_0_LABEL_PROPAGATION_CANTIDAD_COMUNIDADES.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/2_1_LABEL_PROPAGATION_COMUNIDADES.png">
+</p>
+
+Con lo anterior se puede identificar que hay 11.640 comunidades, donde la comunidad mas grande tiene 2.840 usuarios.
+
 ***•	Grado de centralidad***
 
 Cuál es el usuario mas popular en el grafo?
@@ -339,18 +366,6 @@ LIMIT 10
 
 
 
-***•	Community Detection***
-
-Podemos detectar comunidades en nuestros datos ejecutando un algoritmo que atraviesa la estructura del gráfico para encontrar subgráficos altamente conectados con menos conexiones que otros subgráficos.
-
-Ejecute la siguiente consulta para calcular las comunidades que existen en función de las interacciones en todas las estaciones.
-
-```cypher
-CALL algo.labelPropagation(
-  'MATCH (U:USUARIO) RETURN id(U) as id',
-  'MATCH (U:USUARIO)-[R:OPINA]-(U2) RETURN id(U) as source, id(U2) as target, SUM(R.weight) as weight',
-  {graph:'cypher', partitionProperty: 'community'})
-```
 
 ***Analizando las comunidades***
   
