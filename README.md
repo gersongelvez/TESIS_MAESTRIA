@@ -67,19 +67,53 @@ Se deben seguir los siguientes pasos para cargar los datos a Neo4j:
 •	Ejecutar los comandos de importación uno a uno en la consola de Neo4j:
 
 ```cypher
-match(d:departamento) return d.id as id, d.codigo as codigo ,d.nombre as nombre
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///DEPARTAMENTO.csv' AS row
+CREATE (:DEPARTAMENTO_V2 { ID : row.ID, NOMBRE : row.NOMBRE})
 
-match(m:municipio)-[rmd:municipio_en]-(d:departamento) return m.id as id, m.codigo as codigo ,m.nombre as nombre, d.id as departamento_id
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///MUNICIPIO.csv' AS row
+CREATE (:MUNICIPIO_V2 { ID : row.ID, NOMBRE : row.NOMBRE})
 
-match(u:usuario) optional match(u)-[rum:ubicado_en]-(m:municipio) return u.id as id, u.nombre as nombre, u.es_vendedor as es_vendedor, u.es_comprador as es_comprador, u.url as url, m.id as municipio_id order by  es_vendedor desc, id
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///MUNICIPIO.csv' AS row
+MATCH (D:DEPARTAMENTO_V2),(M:MUNICIPIO_V2) WHERE D.ID=row.DEPARTAMENTO_ID AND M.ID=row.ID CREATE (M)-[:MUNICIPIO_EN_V2]->(D)
 
-match (u:usuario)-[rup:vende]-(p:producto) return p.id as id, p.nombre as nombre, p.valor_con_descuento as valor, p.es_nuevo as es_nuevo, p.id as url, u.id as usuario_id order by usuario_id, nombre
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///USUARIO.csv' AS row
+CREATE (:USUARIO_V2 { ID : row.ID, NOMBRE : row.NOMBRE, ES_VENDEDOR : row.ES_VENDEDOR, ES_COMPRADOR : row.ES_COMPRADOR, URL : row.URL})
 
-match (c:categoria) optional match(c)-[rcc:clasificado_en]-(c1:categoria) return c.id as id, c.nombre as nombre, c1.id as categoria_padre_id order by nombre
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///USUARIO.csv' AS row
+MATCH (M:MUNICIPIO_V2),(U:USUARIO_V2) WHERE M.ID=row.MUNICIPIO_ID AND U.ID=row.ID CREATE (U)-[:UBICADO_EN_V2]->(M)
 
-match (p:producto)-[rpc:clasificado_en]-(c:categoria) return p.id as producto_id, c.id as categoria_id, rpc.nivel as nivel order by producto_id, nivel
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///OPINION.csv' AS row
+MATCH (UC:USUARIO_V2),(UV:USUARIO_V2) WHERE UC.ID=row.USUARIO_COMPRADOR_ID AND UV.ID=row.USUARIO_VENDEDOR_ID CREATE (UC)-[:OPINA {TIPO: row.TIPO, FECHA:row.FECHA, OPINION: row.OPINION} ]->(UV)
 
-match(uv:usuario)-[ro:opina]-(uc:usuario) return ro.tipo_opinion as tipo, ro.fecha as fecha, ro.opinion as opinion, uv.id as usuario_vendedor_id, uc.id as usuario_comprador_id
+
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///PRODUCTO.csv' AS row
+CREATE (:PRODUCTO_V2 { ID : row.ID, NOMBRE : row.NOMBRE, VALOR : row.VALOR, ES_NUEVO : row.ES_NUEVO, URL : row.URL, USUARIO_ID : row.USUARIO_ID})
+
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///PRODUCTO.csv' AS row
+MATCH (P:PRODUCTO_V2),(U:USUARIO_V2) WHERE P.ID=row.ID AND U.ID=row.USUARIO_ID CREATE (U)-[:VENDE_V2]->(P)
+
+/*CATEGORIA*/
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///CATEGORIA.csv' AS row
+CREATE (:CATEGORIA_V2 { ID : row.ID, NOMBRE : row.NOMBRE})
+
+/*RELACION CATEGORIA - CATEGORIA */
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///CATEGORIA.csv' AS row
+MATCH (CH:CATEGORIA_V2),(CP:CATEGORIA_V2) WHERE CH.ID=row.ID AND CP.ID=row.CATEGORIA_PADRE_ID CREATE (CH)-[:CLASIFICADO_EN_V2]->(CP)
+
+/*RELACION PRODUCTO - CATEGORIA */
+USING PERIODIC COMMIT 800
+LOAD CSV WITH HEADERS FROM 'file:///PRODUCTO_CATEGORIA.csv' AS row
+MATCH (P:PRODUCTO_V2),(C:CATEGORIA_V2) WHERE P.ID=row.PRODUCTO_ID AND C.ID=row.CATEGORIA_ID CREATE (P)-[:CLASIFICADO_EN_V2 {NIVEL: row.NIVEL} ]->(C)
 
 ```
 
