@@ -258,4 +258,12 @@ Al ejecutar la visualización se muestra de la siguiente manera:
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_2_MAYOR_100.png">
 </p>
 
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_2.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_3.png">
+</p>
+
 Como conslusión, se puede observar que la categoria de APPLE y GOOGLE son las mas importantes para la venta de productos.
