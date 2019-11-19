@@ -117,30 +117,9 @@ MATCH (P:PRODUCTO),(C:CATEGORIA) WHERE P.ID=row.PRODUCTO_ID AND C.ID=row.CATEGOR
 ```
 
 
-# 4.4 Aplicar algoritmos Neo4j sobre el conjunto de datos de Mercadolibre
+# 4.4 Resumen estadístico tradicional
 
-Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones.
-Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
-Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesan el grafo para el cálculo utilizando caminos aleatorios, búsquedas de amplitud o de profundidad o coincidencia de patrones.
-
-***•	Resumen estadístico tradicional***
-
-Se hace una exploración del conjunto de datos antes de ejecutar algoritmos más complejos. 
-
-La siguiente consulta da un detalle de los vendedores y las de categorias de los productos que venden.
-
-```cypher
-match 
-	(U:USUARIO)-[RUP:VENDE]-(P:PRODUCTO) 
-	optional match (P)-[RPC1:CLASIFICADO_EN {NIVEL:'0'} ]-(C1:CATEGORIA) 
-	optional match (P)-[RPC2:CLASIFICADO_EN {NIVEL:'1'} ]-(C2:CATEGORIA) 
-	optional match (P)-[RPC3:CLASIFICADO_EN {NIVEL:'2'} ]-(C3:CATEGORIA)
-	optional match (P)-[RPC4:CLASIFICADO_EN {NIVEL:'3'} ]-(C4:CATEGORIA)
-	optional match (P)-[RPC5:CLASIFICADO_EN {NIVEL:'4'} ]-(C5:CATEGORIA)
-RETURN
-	U.CODIGO, 'VEN '+ID(U) AS ALIAS1, U.ID AS ALIAS2, COALESCE(C3.ID,'') as CATEGORIA_GENERAL, COALESCE(C3.ID,'')+' - '+COALESCE(C4.ID,'') as CATEGORIA, COUNT(P.NOMBRE) AS OFERTADOS, SUM(toInt(COALESCE(P.VENDIDOS,0))) AS VENDIDOS
-ORDER BY VENDIDOS DESC
-```
+Se hace una exploración del conjunto de datos para entender el comportamiento de esta: 
 
 Analizando los datos que se generan en la consulta anterior:
 
@@ -167,16 +146,41 @@ Realizar los querys que respondan las siguientes preguntas:
 
 Cuantos productos existen por categoria?
 
-Cuantos vendedores existen y cual es el número ed productos que ofertan por categoria?
+```cypher
+match 
+	(P:PRODUCTO)-[RPC4:CLASIFICADO_EN]-(C3:CATEGORIA)
+RETURN
+	 COALESCE(C3.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(P) AS CANTIDAD
+ORDER BY CANTIDAD DESC
+```
 
-Cual es el vendedor que tiene oferta mas productos?
+Cuantos vendedores existen y cual es el número de productos que ofertan por categoria?
 
-Cual es la categoria que tiene mas productos?
+```cypher
+match 
+	(U:USUARIO)-[RUP:VENDE]-(P:PRODUCTO)-[RPC4:CLASIFICADO_EN]-(C3:CATEGORIA)
+RETURN
+	 U.CODIGO, COALESCE(C3.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(P) AS CANTIDAD
+ORDER BY CANTIDAD DESC
+```
 
+Cuales son los vendedores que tienen mas opiniones malas?
 
-***•	Algoritmod***
+```cypher
+MATCH 
+	(UC:USUARIO)-[R:OPINA {TIPO_OPINION:'Mala'}]-(UV:USUARIO) 
+return 
+	UV.CODIGO,  COUNT(R) AS CANTIDAD 
+ORDER BY 
+	CANTIDAD DESC
+```
 
-Con la ejecucion de algoritmos se pueden obtener unas estadísticas y cifras de los nodos y sus relaciones:
+***•	Algoritmos***
+
+Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones.
+Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
+Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesan el grafo para el cálculo utilizando caminos aleatorios, búsquedas de amplitud o de profundidad o coincidencia de patrones.
+
 
 
 ***•	PageRank***
@@ -184,16 +188,16 @@ Con la ejecucion de algoritmos se pueden obtener unas estadísticas y cifras de 
 PageRank es el más conocido de los algoritmos de centralidad. Mide la transitiva influencia de los nodos. PageRank considera la influencia de un nodo vecino y sus vecinos. Por ejemplo, tener unos pocos nodos vecinos muy poderosos
 pueden hacer el nodo más influyente que tener muchos vecinos menos poderosos. 
 
-Con lo anterior, podemos responder a la pregunta ¿Cuales son los usuarios mas poderosos del grafo?
+Con lo anterior, podemos responder a la pregunta ¿Cuales son las categorias mas poderosas del grafo?
 
 Para dar respuesta a esa pregunta, se ejecuta el siguiente algoritmo:
 
 ```cypher
-CALL algo.pageRank("USUARIO", "OPINA", {direction: "BOTH", writeProperty:'PAGE_RANK'})
+CALL algo.pageRank("USUARIO", "OFERTA_CATEGORIA2", {direction: "BOTH", writeProperty:'PAGE_RANK'})
 ```
 
 ```cypher
-CALL algo.pageRank.stream('USUARIO', 'OPINA', {iterations:20, dampingFactor:0.85})
+CALL algo.pageRank.stream('USUARIO', 'OFERTA_CATEGORIA2', {iterations:20, dampingFactor:0.85})
 YIELD nodeId, score
 RETURN algo.getNodeById(nodeId).CODIGO AS USUARIO, score
 ORDER BY score DESC
