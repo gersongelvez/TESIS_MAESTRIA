@@ -157,8 +157,26 @@ Analizando la información de productos ofertados y vendidos por los vendedores.
 Haciendo una revisión de los vendedores y la cantidad de clientes, se identifica que los vendedores _WILLINTON_MX_, _GAB_AFN_, _SANDERS712_ Y _CELLUPARTESCELLUPARTES_ son los que tienen mas clientes con un valor de 3.100.
 
 
-***•	Resumen estadístico mediante algoritmos de grafos***
-Se puede identificar el comportamiento de la información mediante unos algoritmos proporcionados por NEO4J. Se pueden responder unas preguntas.
+# 4.5 Laboratorio
+
+Se realiza un laboratorio con el fin de usar el set de datos suministrado
+
+***•	Querys cypher***
+
+Realizar los querys que respondan las siguientes preguntas:
+
+Cuantos productos existen por categoria?
+
+Cuantos vendedores existen y cual es el número ed productos que ofertan por categoria?
+
+Cual es el vendedor que tiene oferta mas productos?
+
+Cual es la categoria que tiene mas productos?
+
+
+***•	Algoritmod***
+
+Con la ejecucion de algoritmos se pueden obtener unas estadísticas y cifras de los nodos y sus relaciones:
 
 
 ***•	PageRank***
@@ -267,3 +285,7 @@ Al ejecutar la visualización se muestra de la siguiente manera:
 </p>
 
 Como conslusión, se puede observar que la categoria de APPLE y GOOGLE son las mas importantes para la venta de productos.
+
+
+
+Actividad...
