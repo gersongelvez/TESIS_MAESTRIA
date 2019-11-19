@@ -214,198 +214,48 @@ CALL algo.labelPropagation('USUARIO','OPINA','OUTGOING', {write:true, partitionP
 
 Con lo anterior se puede identificar que hay 11.640 comunidades, donde la comunidad mas grande tiene 2.840 usuarios.
 
-***•	Grado de centralidad***
 
-Cuál es el usuario mas popular en el grafo?
+***•	Visualización***
+
+Para poder visualizar las estadísticas que proporcionan los algoritmos de neo4j. Con la librería de NEOVIS.JS se puede mostrar la información de grafos de manera eficiente.
+
+Tomando como base el procedimiento para visualización de información de https://github.com/jackdbd/react-neovis-example.
+
+Configurando las propiedades y el query de visualización de información:
 
 ```cypher
-CALL algo.degree.stream("USUARIO", "OPINA", {
-  direction: "BOTH"
-})
-YIELD nodeId, score
-RETURN algo.asNode(nodeId).CODIGO AS USUARIO, score
-ORDER BY score DESC
-LIMIT 10
+    const config = {
+      container_id: this.visRef.current.id,
+      server_url: neo4jUri,
+      server_user: neo4jUser,
+      server_password: neo4jPassword,
+      labels: {
+        USUARIO: {
+          caption: "CODIGO",
+          size: "PAGE_RANK_C2",
+          community: "COMMUNITY_C2"
+        },
+        TIPO_PRODUCTO_CATEGORIA2: {
+          caption: "NOMBRE",
+          size: "CANTIDAD",
+          community: "NOMBRE"
+        }
+      },
+      relationships: {
+        OFERTA_CATEGORIA2: {
+          caption: false,
+          thickness: "CANTIDAD"
+        }
+      },
+      initial_cypher:
+        "MATCH (U:USUARIO)-[R:OFERTA_CATEGORIA2]->(TP:TIPO_PRODUCTO_CATEGORIA2) WHERE toInt(R.CANTIDAD) >= 500 RETURN U, R, TP"
+    };
 ```
+
+Al ejecutar la visualización se muestra de la siguiente manera:
 
 <p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/5_DEGREE_CENTRALITY.png">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_2_MAYOR_100.png">
 </p>
 
-El algoritmo "Degree Centrality" ayuda a identificar el nodo mas popular en el grafo, dando un score según el número de relaciones entrantes y salientes. Para el grafo que se está analizando, se identifica que los USUARIOS mas populares son "GAB_AFN", "WILLINTONMX" y "CELLUPARTESCELLUPARTES".
-
-***•	Camino mas corto***
-Se busca el diametro del grafo para los vendedores y clientes, tomando el camino mas corto. Para eso se usa el siguiente código:
-
-```cypher
-MATCH (U1:USUARIO)-[:OPINA]-(U2:USUARIO) WHERE id(U1) > id(U2)
-MATCH path = shortestPath((U1)-[:OPINA]-(U2))
-RETURN path, length(path) AS len
-ORDER BY len DESC
-LIMIT 100
-```
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/6_SHORTEST_PATH.png">
-</p>
-
-Tomando el camino mas corto, se identifica que hay nodos separados de la red y un grupo de nodos unidos.
-
-***•	Betweenness Centrality***
-
-Con este algoritmo se puede identificar el vendedor mas influyente en el grafo.
-```cypher
-CALL algo.betweenness.stream("USUARIO", "OPINA", {
-  direction: "BOTH"
-})
-YIELD nodeId, centrality
-RETURN algo.asNode(nodeId).CODIGO, centrality
-ORDER BY centrality DESC
-LIMIT 10
-```
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/9_Betweenness_Centrality.png">
-</p>
-
-Se identifica que el vendedor mas influyente es _GAB_AFN_.
-
-
-***•	Almacenando el score del algoritmo Betweenness Centrality***
-
-Debido a que normalmente los grafos son demasiado grandes, una manera óptima es almacenar el valor de retornado por el algoritmo en cada nodo, para así posteriormente se puedan hacer consultas subconjuntos del grafo.
-
-El siguiente código fuente almancena el resultado del algoritmo en la propiedad BETWEENNESS_CENTRALITY del nodo USUARIO: 
-
-```cypher
-CALL algo.betweenness("USUARIO", "OPINA", {direction: "BOTH", writeProperty: "BETWEENNESS_CENTRALITY"})
-```
-
-```cypher
-Con el valor almacenado, se puede proceder a consultar:
-MATCH (U:USUARIO)
-RETURN U.CODIGO, U.BETWEENNESS_CENTRALITY AS centrality
-ORDER BY centrality DESC
-LIMIT 10
-```
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/12_Querying_Betweenness_Centrality.png">
-</p>
-
-
-
-
-***•	Closeness Centrality***
-
-La centralidad de proximidad es una forma de detectar nodos que pueden difundir información de manera muy eficiente a través de un gráfico. La centralidad de proximidad de un nodo mide su lejanía promedio (distancia inversa) a todos los demás nodos. Los nodos con un alto puntaje de cercanía tienen las distancias más cortas a todos los demás nodos.
-
-Podemos ejecutar este algoritmo sobre los usuarios de mercadolibre:
-
-```cypher
-CALL algo.closeness.stream("USUARIO", "OPINA", {
-  direction: "BOTH"
-})
-YIELD nodeId, centrality
-RETURN algo.asNode(nodeId).CODIGO, centrality
-ORDER BY centrality DESC
-LIMIT 10
-```
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/18_Closeness_Centrality.png">
-</p>
-
-
-***•	Usuarios bien conectados***
-
-¿Por qué Daenerys está tan bien conectado?
-
-De manera predeterminada, el algoritmo de Centralidad de cercanía calcula la conexión de un nodo con todos los nodos a los que puede llegar. Podemos ejecutar el algoritmo de componentes conectados para encontrar conjuntos de nodos que tengan rutas entre sí.
-
-```cypher
-CALL algo.unionFind.stream("USUARIO", "OPINA", {
-  direction: "BOTH"
-})
-YIELD nodeId, setId
-WITH setId, collect(algo.asNode(nodeId).CODIGO) AS USUARIO
-RETURN setId, USUARIO, size(USUARIO) AS size
-ORDER BY size(USUARIO) DESC
-LIMIT 10
-```
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/19_USUARIO_BIEN_CONECTADA.png">
-</p>
-
-***•	Closeness Centrality: Wasserman and Faust / Harmonic***
-
-
-Por lo tanto, el algoritmo de centralidad de proximidad realmente mide la lejanía de un nodo a todos los demás nodos en el mismo componente conectado. Si queremos encontrar la lejanía para todos los demás nodos en el gráfico, podemos usar las variantes de Wasserman y Faust o Harmonic del algoritmo.
-
-***Wasserman and Faust***
-
-```cypher
-CALL algo.closeness.stream("USUARIO", "OPINA", {
-  direction: "BOTH", improved: true
-})
-YIELD nodeId, centrality
-RETURN algo.asNode(nodeId).CODIGO, centrality
-ORDER BY centrality DESC
-LIMIT 10
-```
-
-***Harmonic***
-
-```cypher
-CALL algo.closeness.harmonic.stream("USUARIO", "OPINA", {
-  direction: "BOTH"
-})
-YIELD nodeId, centrality
-RETURN algo.asNode(nodeId).CODIGO, centrality
-ORDER BY centrality DESC
-LIMIT 10
-```
-
-
-
-
-***Analizando las comunidades***
-  
-```cypher
-MATCH (U:USUARIO)
-WHERE exists(U.community)
-RETURN U.community, count(*) AS count
-ORDER BY count DESC
-```
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/25_Querying_Communities_USUARIO.png">
-</p>
-
-```cypher
-CALL algo.pageRank(
-  'MATCH (U:USUARIO) RETURN id(U) as id',
-  'MATCH (U:USUARIO)-[rel:OPINA]-(U2) RETURN id(U) as source,id(U2) as target, SUM(rel.weight) as weight',
-  {graph:'cypher', writeProperty: 'pageRank'})  
-```
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/25_Querying_Communities_USUARIO.png">
-</p>
-
-***Visualizando las comunidades***
-
-
-Podemos escribir el siguiente código para ver la interaccion entre las personas de mercadolibre:
-
-```cypher
-MATCH (U:USUARIO) WHERE exists(U.community)
-WITH U.community AS community, COUNT(*) AS count
-ORDER BY count DESC
-SKIP 1 LIMIT 1
-MATCH path = (U:USUARIO {community: community})--(U2:USUARIO {community: community})
-RETURN path
-```
-
-El grafo se ve desde la siguiente manera:
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/27 Visualising Communities.png">
-</p>
+Como conslusión, se puede observar que la categoria de APPLE y GOOGLE son las mas importantes para la venta de productos.
