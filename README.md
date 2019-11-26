@@ -147,20 +147,20 @@ Realizar los querys que respondan las siguientes preguntas:
 Cuantos productos existen por categoria?
 
 ```cypher
-match 
-	(P:PRODUCTO)-[RPC4:CLASIFICADO_EN]-(C3:CATEGORIA)
+MATCH 
+	(p:PRODUCTO)-[r:CLASIFICADO_EN]-(c:CATEGORIA)
 RETURN
-	 COALESCE(C3.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(P) AS CANTIDAD
-ORDER BY CANTIDAD DESC
+	 COALESCE(c.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(p) AS cantidad
+ORDER BY cantidad DESC
 ```
 
 Cuantos vendedores existen y cual es el número de productos que ofertan por categoria?
 
 ```cypher
-match 
-	(U:USUARIO)-[RUP:VENDE]-(P:PRODUCTO)-[RPC4:CLASIFICADO_EN]-(C3:CATEGORIA)
+MATCH 
+	(u:USUARIO)-[:VENDE]-(p:PRODUCTO)-[:CLASIFICADO_EN]-(c:CATEGORIA)
 RETURN
-	 U.CODIGO, COALESCE(C3.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(P) AS CANTIDAD
+	 u.CODIGO, COALESCE(c.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(p) AS CANTIDAD
 ORDER BY CANTIDAD DESC
 ```
 
@@ -168,11 +168,11 @@ Cuales son los vendedores que tienen mas opiniones malas?
 
 ```cypher
 MATCH 
-	(UC:USUARIO)-[R:OPINA {TIPO_OPINION:'Mala'}]-(UV:USUARIO) 
+	(uc:USUARIO)-[r:OPINA {TIPO_OPINION:'Mala'}]-(uv:USUARIO) 
 return 
-	UV.CODIGO,  COUNT(R) AS CANTIDAD 
+	uv.CODIGO,  COUNT(r) AS cantidad 
 ORDER BY 
-	CANTIDAD DESC
+	cantidad DESC
 ```
 
 ***•	Algoritmos***
@@ -193,11 +193,11 @@ Con lo anterior, podemos responder a la pregunta ¿Cuales son las categorias mas
 Para dar respuesta a esa pregunta, se ejecuta el siguiente algoritmo:
 
 ```cypher
-CALL algo.pageRank("USUARIO", "OFERTA_CATEGORIA2", {direction: "BOTH", writeProperty:'PAGE_RANK'})
+CALL algo.pageRank("USUARIO", "OPINA", {direction: "BOTH", writeProperty:'PAGE_RANK'})
 ```
 
 ```cypher
-CALL algo.pageRank.stream('USUARIO', 'OFERTA_CATEGORIA2', {iterations:20, dampingFactor:0.85})
+CALL algo.pageRank.stream('USUARIO', 'OPINA', {iterations:20, dampingFactor:0.85})
 YIELD nodeId, score
 RETURN algo.getNodeById(nodeId).CODIGO AS USUARIO, score
 ORDER BY score DESC
