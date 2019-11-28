@@ -153,6 +153,9 @@ Haciendo una revisión de los vendedores y la cantidad de clientes, se identific
 Se realiza un laboratorio con el fin de usar el set de datos suministrado. Para esto se debe responder al siguiente cuestionario.
 
 •	Listar los departamentos
+
+SOLUCIÓN:
+
 ```cypher
 MATCH (d:DEPARTAMENTO) RETURN d
 ```
@@ -162,6 +165,9 @@ MATCH (d:DEPARTAMENTO) RETURN d
 </p>
 
 •	Listar los municipios del departamento "BOGOTÁDC" en orden alfabetico
+
+SOLUCIÓN:
+
 ```cypher
 MATCH (m:MUNICIPIO)-[:MUNICIPIO_EN]-(d:DEPARTAMENTO) WHERE d.NOMBRE='BOGOTÁDC' RETURN m.NOMBRE as nombre_municipio order by nombre_municipio
 ```
@@ -172,6 +178,9 @@ MATCH (m:MUNICIPIO)-[:MUNICIPIO_EN]-(d:DEPARTAMENTO) WHERE d.NOMBRE='BOGOTÁDC' 
 
 
 •	Listar los 5 primeros municipios y su departamento, que tengan mas usuarios vendedores
+
+SOLUCIÓN:
+
 ```cypher
 MATCH (u:USUARIO {ES_VENDEDOR:1})-[:UBICADO_EN]-(m:MUNICIPIO)-[:MUNICIPIO_EN]-(d:DEPARTAMENTO) RETURN d.NOMBRE as departamento, m.NOMBRE as municipio,  count(u) as cantidad order by cantidad desc limit 5
 ```
@@ -182,16 +191,24 @@ MATCH (u:USUARIO {ES_VENDEDOR:1})-[:UBICADO_EN]-(m:MUNICIPIO)-[:MUNICIPIO_EN]-(d
 
 •	Cual es el vendedor con el máximo número de opiniones malas y cuales son sus caracteristicas. Que lo diferencia de los usuarios que venden productos similares?
 
+SOLUCIÓN:
+
 ```cypher
 XXX
 ```
 
 •	Cuales son los 5 usuarios que mas han dado opiniones malas ?
+
+SOLUCIÓN:
+
 ```cypher
 MATCH(uc:USUARIO)-[:OPINA {TIPO_OPINION:'Mala'}]-(uv:USUARIO) WITH count(1) as cantidad,uc.NOMBRE as nombre WHERE cantidad>1 RETURN nombre, cantidad order by cantidad desc limit 5
 ```
 
 •	Cuales son los 'IPHONE 8 PLUS' mas caros que se venden?
+
+SOLUCIÓN:
+
 ```cypher
 MATCH (p:PRODUCTO)-[:CLASIFICADO_EN]-(c:CATEGORIA {NOMBRE:'IPHONE 8 PLUS'}) RETURN c.NOMBRE, p.NOMBRE, toInt(REPLACE(p.VALOR_CON_DESCUENTO,'.','')) as valor order by valor desc limit 5
 ```
@@ -208,9 +225,13 @@ Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesa
 
 Se realiza un laboratorio con el fin de usar el set de datos suministrado. Para esto se debe responder al siguiente cuestionario.
 
-•	Cuales son los usuarios mas influyentes en el grafo?
 
+
+•	Cuales son los usuarios mas influyentes en el grafo?
 NOTA: Para identificar nodos influyentes, se pueden aplicar algotirmos de centralidad como Page Rank.
+
+
+SOLUCIÓN:
 
 
 PageRank es el más conocido de los algoritmos de centralidad. Mide la transitiva influencia de los nodos. PageRank considera la influencia de un nodo vecino y sus vecinos. Por ejemplo, tener unos pocos nodos vecinos muy poderosos
@@ -238,9 +259,13 @@ ORDER BY score DESC
 Con lo anterior se puede identificar que los usuarios "CELLUPARTESCELLUPARTES", "WILLINTONMX", "GAB_AFN" Y "SANDERS712" son los mas influyentes del grafo.
 
 
-•	Identificar las comunidades de usuarios que existen en el grafo.
 
+
+•	Identificar las comunidades de usuarios que existen en el grafo.
 NOTA: Se pueden identificar comunidades de un grafo, aplicando algoritmos de detección de comunidades como es Label propagation.
+
+
+SOLUCIÓN:
 
 
 El algoritmo de propagación de etiquetas (LPA) es un algoritmo rápido para encontrar comunidades
@@ -267,9 +292,14 @@ CALL algo.labelPropagation('USUARIO','OPINA','OUTGOING', {write:true, partitionP
 Con lo anterior se puede identificar que hay 11.640 comunidades, donde la comunidad mas grande tiene 2.840 usuarios.
 
 
+
 # 4.6 Visualización 
 
 Con las comunidades detectadas, visualizar las comunidades que tengan 65 usuarios.
+
+
+SOLUCIÓN:
+
 
 Para poder visualizar las estadísticas que proporcionan los algoritmos de neo4j. Con la librería de NEOVIS.JS se puede mostrar la información de grafos de manera eficiente.
 
