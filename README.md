@@ -71,49 +71,61 @@ USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///DEPARTAMENTO.csv' AS row
 CREATE (:DEPARTAMENTO { ID : row.ID, NOMBRE : row.NOMBRE})
 
+CREATE CONSTRAINT ON (n:DEPARTAMENTO) ASSERT n.ID IS UNIQUE
+
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///MUNICIPIO.csv' AS row
 CREATE (:MUNICIPIO { ID : row.ID, NOMBRE : row.NOMBRE})
 
+CREATE CONSTRAINT ON (n:MUNICIPIO) ASSERT n.ID IS UNIQUE
+
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///MUNICIPIO.csv' AS row
-MATCH (D:DEPARTAMENTO),(M:MUNICIPIO) WHERE D.ID=row.DEPARTAMENTO_ID AND M.ID=row.ID CREATE (M)-[:MUNICIPIO_EN]->(D)
+MATCH (d:DEPARTAMENTO),(m:MUNICIPIO) WHERE d.ID=row.DEPARTAMENTO_ID AND m.ID=row.ID CREATE (m)-[:MUNICIPIO_EN]->(d)
 
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///USUARIO.csv' AS row
 CREATE (:USUARIO { ID : row.ID, NOMBRE : row.NOMBRE, ES_VENDEDOR : row.ES_VENDEDOR, ES_COMPRADOR : row.ES_COMPRADOR, URL : row.URL})
 
+CREATE CONSTRAINT ON (n:USUARIO) ASSERT n.ID IS UNIQUE
+
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///USUARIO.csv' AS row
-MATCH (M:MUNICIPIO),(U:USUARIO) WHERE M.ID=row.MUNICIPIO_ID AND U.ID=row.ID CREATE (U)-[:UBICADO_EN]->(M)
+MATCH (m:MUNICIPIO),(u:USUARIO) WHERE m.ID=row.MUNICIPIO_ID AND u.ID=row.ID CREATE (u)-[:UBICADO_EN]->(m)
 
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///OPINION.csv' AS row
-MATCH (UC:USUARIO),(UV:USUARIO) WHERE UC.ID=row.USUARIO_COMPRADOR_ID AND UV.ID=row.USUARIO_VENDEDOR_ID CREATE (UC)-[:OPINA {TIPO: row.TIPO, FECHA:row.FECHA, OPINION: row.OPINION} ]->(UV)
-
+MATCH (uc:USUARIO),(uv:USUARIO) WHERE uc.ID=row.USUARIO_COMPRADOR_ID AND uv.ID=row.USUARIO_VENDEDOR_ID CREATE (uc)-[:OPINA {TIPO: row.TIPO, FECHA:row.FECHA, OPINION: row.OPINION} ]->(uv)
 
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///PRODUCTO.csv' AS row
 CREATE (:PRODUCTO { ID : row.ID, NOMBRE : row.NOMBRE, VALOR : row.VALOR, ES_NUEVO : row.ES_NUEVO, URL : row.URL, USUARIO_ID : row.USUARIO_ID})
 
+CREATE CONSTRAINT ON (n:PRODUCTO) ASSERT n.ID IS UNIQUE
+
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///PRODUCTO.csv' AS row
-MATCH (P:PRODUCTO),(U:USUARIO) WHERE P.ID=row.ID AND U.ID=row.USUARIO_ID CREATE (U)-[:VENDE]->(P)
+MATCH (p:PRODUCTO),(u:USUARIO) WHERE p.ID=row.ID AND u.ID=row.USUARIO_ID CREATE (u)-[:VENDE]->(p)
 
 /*CATEGORIA*/
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///CATEGORIA.csv' AS row
 CREATE (:CATEGORIA { ID : row.ID, NOMBRE : row.NOMBRE})
 
+CREATE CONSTRAINT ON (n:CATEGORIA) ASSERT n.ID IS UNIQUE
+
 /*RELACION CATEGORIA - CATEGORIA */
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///CATEGORIA.csv' AS row
-MATCH (CH:CATEGORIA),(CP:CATEGORIA) WHERE CH.ID=row.ID AND CP.ID=row.CATEGORIA_PADRE_ID CREATE (CH)-[:CLASIFICADO_EN]->(CP)
+MATCH (ch:CATEGORIA),(cp:CATEGORIA) WHERE ch.ID=row.ID AND cp.ID=row.CATEGORIA_PADRE_ID CREATE (ch)-[:CLASIFICADO_EN]->(cp)
 
 /*RELACION PRODUCTO - CATEGORIA */
 USING PERIODIC COMMIT 800
 LOAD CSV WITH HEADERS FROM 'file:///PRODUCTO_CATEGORIA.csv' AS row
-MATCH (P:PRODUCTO),(C:CATEGORIA) WHERE P.ID=row.PRODUCTO_ID AND C.ID=row.CATEGORIA_ID CREATE (P)-[:CLASIFICADO_EN {NIVEL: row.NIVEL} ]->(C)
+MATCH (p:PRODUCTO),(c:CATEGORIA) WHERE p.ID=row.PRODUCTO_ID AND c.ID=row.CATEGORIA_ID CREATE (p)-[:CLASIFICADO_EN {NIVEL: row.NIVEL} ]->(c)
+
+CREATE CONSTRAINT ON (n:PRODUCTO) ASSERT n.ID IS UNIQUE
+
 ```
 
 
@@ -136,54 +148,70 @@ Analizando la información de productos ofertados y vendidos por los vendedores.
 Haciendo una revisión de los vendedores y la cantidad de clientes, se identifica que los vendedores _WILLINTON_MX_, _GAB_AFN_, _SANDERS712_ Y _CELLUPARTESCELLUPARTES_ son los que tienen mas clientes con un valor de 3.100.
 
 
-# 4.5 Laboratorio
+# 4.5 Laboratorio de querys cypher sobre el conjunto de datos 
 
-Se realiza un laboratorio con el fin de usar el set de datos suministrado
+Se realiza un laboratorio con el fin de usar el set de datos suministrado. Para esto se debe responder al siguiente cuestionario.
 
-***•	Querys cypher***
-
-Realizar los querys que respondan las siguientes preguntas:
-
-Cuantos productos existen por categoria?
-
+•	Listar los departamentos
 ```cypher
-MATCH 
-	(p:PRODUCTO)-[r:CLASIFICADO_EN]-(c:CATEGORIA)
-RETURN
-	 COALESCE(c.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(p) AS cantidad
-ORDER BY cantidad DESC
+MATCH (d:DEPARTAMENTO) RETURN d
 ```
 
-Cuantos vendedores existen y cual es el número de productos que ofertan por categoria?
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/40_respuestas_1_departamentos.png">
+</p>
 
+•	Listar los municipios del departamento "BOGOTÁDC" en orden alfabetico
 ```cypher
-MATCH 
-	(u:USUARIO)-[:VENDE]-(p:PRODUCTO)-[:CLASIFICADO_EN]-(c:CATEGORIA)
-RETURN
-	 u.CODIGO, COALESCE(c.NOMBRE,'') as NOMBRE_CATEGORIA, COUNT(p) AS CANTIDAD
-ORDER BY CANTIDAD DESC
+MATCH (m:MUNICIPIO)-[:MUNICIPIO_EN]-(d:DEPARTAMENTO) WHERE d.NOMBRE='BOGOTÁDC' RETURN m.NOMBRE as nombre_municipio order by nombre_municipio
 ```
 
-Cuales son los vendedores que tienen mas opiniones malas?
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/41_respuestas_2_departamentos_mun.png">
+</p>
 
+
+•	Listar los 5 primeros municipios y su departamento, que tengan mas usuarios vendedores
 ```cypher
-MATCH 
-	(uc:USUARIO)-[r:OPINA {TIPO_OPINION:'Mala'}]-(uv:USUARIO) 
-return 
-	uv.CODIGO,  COUNT(r) AS cantidad 
-ORDER BY 
-	cantidad DESC
+MATCH (u:USUARIO {ES_VENDEDOR:1})-[:UBICADO_EN]-(m:MUNICIPIO)-[:MUNICIPIO_EN]-(d:DEPARTAMENTO) RETURN d.NOMBRE as departamento, m.NOMBRE as municipio,  count(u) as cantidad order by cantidad desc limit 5
 ```
 
-***•	Algoritmos***
+<p align="center">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/42_respuestas_3_departamentos_mun_mas_usu_vendedo.png">
+</p>
+
+•	Cual es el vendedor con el máximo número de opiniones malas y cuales son sus caracteristicas. Que lo diferencia de los usuarios que venden productos similares?
+
+```cypher
+XXX
+```
+
+•	Cuales son los 5 usuarios que mas han dado opiniones malas ?
+```cypher
+MATCH(uc:USUARIO)-[:OPINA {TIPO_OPINION:'Mala'}]-(uv:USUARIO) WITH count(1) as cantidad,uc.NOMBRE as nombre WHERE cantidad>1 RETURN nombre, cantidad order by cantidad desc limit 5
+```
+
+•	Cuales son los 'IPHONE 8 PLUS' mas caros que se venden?
+```cypher
+MATCH (p:PRODUCTO)-[:CLASIFICADO_EN]-(c:CATEGORIA {NOMBRE:'IPHONE 8 PLUS'}) RETURN c.NOMBRE, p.NOMBRE, toInt(REPLACE(p.VALOR_CON_DESCUENTO,'.','')) as valor order by valor desc limit 5
+```
+
+NOTA: Los valores de producto vienen en formato texto, se debe copnsiderar hacer limpieza de este campo para poder tratarlo como numérico.
+
+
+# 4.6 Algoritmos de analítica de grafos 
 
 Los algoritmos se utilizan para calcular métricas de grafos, nodos o relaciones.
 Pueden proporcionar información sobre entidades relevantes en el grafo (centralidades, clasificación) o estructuras inherentes como las comunidades (detección de comunidades, partición de grafos, agrupación).
 Muchos algoritmos de grafos son enfoques iterativos que frecuentemente atraviesan el grafo para el cálculo utilizando caminos aleatorios, búsquedas de amplitud o de profundidad o coincidencia de patrones.
 
 
+Se realiza un laboratorio con el fin de usar el set de datos suministrado. Para esto se debe responder al siguiente cuestionario.
 
-***•	PageRank***
+•	Cuales son los usuarios mas influyentes en el grafo?
+
+NOTA: Para identificar nodos influyentes, se pueden aplicar algotirmos de centralidad como Page Rank.
+
 
 PageRank es el más conocido de los algoritmos de centralidad. Mide la transitiva influencia de los nodos. PageRank considera la influencia de un nodo vecino y sus vecinos. Por ejemplo, tener unos pocos nodos vecinos muy poderosos
 pueden hacer el nodo más influyente que tener muchos vecinos menos poderosos. 
@@ -207,11 +235,13 @@ ORDER BY score DESC
 <img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/22_2_QUERYING_Calculating_PageRank.png">
 </p>
 
-Con lo anterior se puede identificar que los usuarios "CELLUPARTESCELLUPARTES", "WILLINTONMX", "GAB_AFN" Y "SANDERS712" son los mas poderosos del grafo.
+Con lo anterior se puede identificar que los usuarios "CELLUPARTESCELLUPARTES", "WILLINTONMX", "GAB_AFN" Y "SANDERS712" son los mas influyentes del grafo.
 
 
+•	Identificar las comunidades de usuarios que existen en el grafo.
 
-***•	Community Detection - Label propagation***
+NOTA: Se pueden identificar comunidades de un grafo, aplicando algoritmos de detección de comunidades como es Label propagation.
+
 
 El algoritmo de propagación de etiquetas (LPA) es un algoritmo rápido para encontrar comunidades
 en un grafo, los nodos seleccionan su grupo en función de sus vecinos directos. Este proceso
@@ -237,7 +267,9 @@ CALL algo.labelPropagation('USUARIO','OPINA','OUTGOING', {write:true, partitionP
 Con lo anterior se puede identificar que hay 11.640 comunidades, donde la comunidad mas grande tiene 2.840 usuarios.
 
 
-***•	Visualización***
+# 4.6 Visualización 
+
+Con las comunidades detectadas, visualizar las comunidades que tengan 65 usuarios.
 
 Para poder visualizar las estadísticas que proporcionan los algoritmos de neo4j. Con la librería de NEOVIS.JS se puede mostrar la información de grafos de manera eficiente.
 
@@ -254,42 +286,23 @@ Configurando las propiedades y el query de visualización de información:
       labels: {
         USUARIO: {
           caption: "CODIGO",
-          size: "PAGE_RANK_C2",
-          community: "COMMUNITY_C2"
-        },
-        TIPO_PRODUCTO_CATEGORIA2: {
-          caption: "NOMBRE",
-          size: "CANTIDAD",
-          community: "NOMBRE"
+          size: "PAGE_RANK_F1",
+          community: "COMUNIDAD_F"
         }
       },
       relationships: {
-        OFERTA_CATEGORIA2: {
+        OPINA: {
           caption: false,
           thickness: "CANTIDAD"
         }
       },
       initial_cypher:
-        "MATCH (U:USUARIO)-[R:OFERTA_CATEGORIA2]->(TP:TIPO_PRODUCTO_CATEGORIA2) WHERE toInt(R.CANTIDAD) >= 500 RETURN U, R, TP"
+        "MATCH (U1:USUARIO)-[R:OPINA]->(U2:USUARIO) WHERE U1.community2=1716 OR U1.community2=1999 OR U1.community2=2503 OR U2.community2=1716 OR U2.community2=1999 OR U2.community2=2503 RETURN U1, R, U2"
     };
 ```
 
 Al ejecutar la visualización se muestra de la siguiente manera:
 
 <p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_2_MAYOR_100.png">
+<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/31_3_VISUALIZACION_USUARIOS_65_personas.png">
 </p>
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_2.png">
-</p>
-
-<p align="center">
-<img src="https://github.com/gersongelvez/TESIS_MAESTRIA/blob/master/IMAGENES/30_VISUALIZACION_USUARIO_OFERTADOS_CATEGORIA_3.png">
-</p>
-
-Como conslusión, se puede observar que la categoria de APPLE y GOOGLE son las mas importantes para la venta de productos.
-
-
-
-Actividad...
