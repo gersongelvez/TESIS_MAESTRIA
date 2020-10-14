@@ -1,0 +1,803 @@
+﻿CODIGO,NOMBRE,NIVEL,PADRE_CODIGO
+"","",0,null
+Celulares y Teléfonos,Celulares y Teléfonos,0,null
+Celulares y Teléfonos|Celulares y Smartphones,Celulares y Smartphones,1,Celulares y Teléfonos
+Celulares y Teléfonos|Celulares y Smartphones|102,102,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|2020,2020,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|8 Plus,8 Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|8 Pro,8 Pro,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|9A,9A,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A01,A01,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A10,A10,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A10s,A10s,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A10s Duos,A10s Duos,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A11,A11,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A20,A20,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A20s,A20s,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A20s Duos,A20s Duos,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A21s,A21s,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A30s,A30s,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A30s Duos,A30s Duos,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A50,A50,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A51,A51,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A51 Duos,A51 Duos,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A71,A71,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|A71 Duos,A71 Duos,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel,Alcatel,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|1017G,1017G,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|1041 Dual SIM,1041 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|1050 Dual SIM,1050 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|3C,3C,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Crystal,Crystal,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Flint,Flint,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Ideal,Ideal,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Idol,Idol,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Idol 2 Mini,Idol 2 Mini,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Idol 3 (4.7),Idol 3 (4.7),3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Idol 3 (5.5),Idol 3 (5.5),3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Idol 4,Idol 4,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Pop 2 (4.5),Pop 2 (4.5),3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Pop 3 (5),Pop 3 (5),3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Pop 4,Pop 4,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Pop 4S,Pop 4S,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Alcatel|Revvl,Revvl,3,Celulares y Teléfonos|Celulares y Smartphones|Alcatel
+Celulares y Teléfonos|Celulares y Smartphones|Appel,Appel,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Appel|XR,XR,3,Celulares y Teléfonos|Celulares y Smartphones|Appel
+Celulares y Teléfonos|Celulares y Smartphones|Apple,Apple,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Apple|6,6,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|8 Plus,8 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|Pro,Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|SE,SE,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|X,X,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|XR,XR,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone,iPhone,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 11,iPhone 11,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 11 Pro,iPhone 11 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 11 Pro Max,iPhone 11 Pro Max,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 3G,iPhone 3G,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 4,iPhone 4,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 4s,iPhone 4s,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 5,iPhone 5,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 5c,iPhone 5c,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 5s,iPhone 5s,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 6,iPhone 6,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 6 Plus,iPhone 6 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 6s,iPhone 6s,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 6s Plus,iPhone 6s Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 7,iPhone 7,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 7 Plus,iPhone 7 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 8,iPhone 8,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone 8 Plus,iPhone 8 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone SE,iPhone SE,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone SE (2nd Generation),iPhone SE (2nd Generation),3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone X,iPhone X,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone XR,iPhone XR,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone XS,iPhone XS,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone XS Dual SIM,iPhone XS Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Apple|iPhone XS Max,iPhone XS Max,3,Celulares y Teléfonos|Celulares y Smartphones|Apple
+Celulares y Teléfonos|Celulares y Smartphones|Asus,Asus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Asus|3,3,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|3 Max ZC520TL,3 Max ZC520TL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|3 Max ZC553KL,3 Max ZC553KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|3 ZE520KL,3 ZE520KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|3 ZE552KL,3 ZE552KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|3S,3S,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|4 Max ZC520KL,4 Max ZC520KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|5 ZE620KL,5 ZE620KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|5Z ZS620KL,5Z ZS620KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|Go,Go,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|Go ZC500TG,Go ZC500TG,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|Max Plus M1 ZB570TL,Max Plus M1 ZB570TL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|Selfie,Selfie,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|Selfie ZD551KL,Selfie ZD551KL,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|Asus|Zoom ZX551ML,Zoom ZX551ML,3,Celulares y Teléfonos|Celulares y Smartphones|Asus
+Celulares y Teléfonos|Celulares y Smartphones|BLU,BLU,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|BLU|4.0 L3,4.0 L3,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|5,5,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|5.0,5.0,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|5.5,5.5,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|5.5 HD II,5.5 HD II,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Air,Air,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|C4,C4,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|C5,C5,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|C6,C6,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|C6 2019,C6 2019,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Dash,Dash,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Dash X,Dash X,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Diva Flip,Diva Flip,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|G5,G5,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|G5 Plus,G5 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|G6,G6,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|G9,G9,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|L5,L5,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|One X (2016),One X (2016),3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|S5 HD,S5 HD,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Tank,Tank,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Tank II,Tank II,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|X LTE,X LTE,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|X Plus 2,X Plus 2,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|XL,XL,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|XL2,XL2,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|BLU|Z5,Z5,3,Celulares y Teléfonos|Celulares y Smartphones|BLU
+Celulares y Teléfonos|Celulares y Smartphones|Ballistic,Ballistic,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|BlackBerry,BlackBerry,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|BlackBerry|8320,8320,3,Celulares y Teléfonos|Celulares y Smartphones|BlackBerry
+Celulares y Teléfonos|Celulares y Smartphones|BlackBerry|8520,8520,3,Celulares y Teléfonos|Celulares y Smartphones|BlackBerry
+Celulares y Teléfonos|Celulares y Smartphones|BlackBerry|9350,9350,3,Celulares y Teléfonos|Celulares y Smartphones|BlackBerry
+Celulares y Teléfonos|Celulares y Smartphones|C,C,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Doogee,Doogee,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Doogee|Mix,Mix,3,Celulares y Teléfonos|Celulares y Smartphones|Doogee
+Celulares y Teléfonos|Celulares y Smartphones|Doogee|X30,X30,3,Celulares y Teléfonos|Celulares y Smartphones|Doogee
+Celulares y Teléfonos|Celulares y Smartphones|Doogee|X5,X5,3,Celulares y Teléfonos|Celulares y Smartphones|Doogee
+Celulares y Teléfonos|Celulares y Smartphones|E4 Plus,E4 Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|E5 Plus,E5 Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|E6 Play,E6 Play,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|E6s,E6s,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Express,Express,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Express Prime,Express Prime,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G,G,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G3,G3,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G4 Play,G4 Play,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G5,G5,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G5 Plus,G5 Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G5S Plus,G5S Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G6,G6,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G7,G7,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G7 Dual SIM,G7 Dual SIM,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G8 Plus,G8 Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|G8 ThinQ,G8 ThinQ,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Google,Google,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Google|5,5,3,Celulares y Teléfonos|Celulares y Smartphones|Google
+Celulares y Teléfonos|Celulares y Smartphones|Google|Pixel,Pixel,3,Celulares y Teléfonos|Celulares y Smartphones|Google
+Celulares y Teléfonos|Celulares y Smartphones|Google|Pixel XL,Pixel XL,3,Celulares y Teléfonos|Celulares y Smartphones|Google
+Celulares y Teléfonos|Celulares y Smartphones|HP,HP,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|HP|x3 Dual SIM,x3 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|HP
+Celulares y Teléfonos|Celulares y Smartphones|HTC,HTC,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|HTC|4G,4G,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|Desire,Desire,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|Desire 610,Desire 610,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|Desire 820 Dual SIM,Desire 820 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|U11,U11,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|U11 Dual SIM,U11 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|U12 life Dual SIM,U12 life Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|U12+,U12+,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|HTC|Ultra,Ultra,3,Celulares y Teléfonos|Celulares y Smartphones|HTC
+Celulares y Teléfonos|Celulares y Smartphones|Huawei,Huawei,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|10 Lite,10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|6P,6P,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|GR5,GR5,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate,Mate,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 10,Mate 10,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 10 Dual SIM,Mate 10 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 10 Lite,Mate 10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 10 Lite Dual SIM,Mate 10 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 10 Pro,Mate 10 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 20 Dual SIM,Mate 20 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 20 Lite Dual SIM,Mate 20 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 20 Pro Dual SIM,Mate 20 Pro Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 20 X,Mate 20 X,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 20 X 5G,Mate 20 X 5G,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 30 Pro Dual SIM,Mate 30 Pro Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 9,Mate 9,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 9 Dual SIM,Mate 9 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate 9 Lite,Mate 9 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Mate SE,Mate SE,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Nova 3i,Nova 3i,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Nova 5t,Nova 5t,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P Smart,P Smart,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P Smart 2019,P Smart 2019,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P Smart 2019 Dual SIM,P Smart 2019 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P Smart Dual SIM,P Smart Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P10,P10,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P10 Dual SIM,P10 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P10 Lite,P10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P10 Lite Dual SIM,P10 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P10 Plus Dual SIM,P10 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P20,P20,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P20 Dual SIM,P20 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P20 Lite,P20 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P20 Lite Dual SIM,P20 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P20 Pro,P20 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P20 Pro Dual SIM,P20 Pro Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P30,P30,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P30 Dual SIM,P30 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P30 Lite,P30 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P30 Lite Dual SIM,P30 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P30 Pro,P30 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P30 Pro Dual SIM,P30 Pro Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P40 Lite,P40 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P40 Lite Dual SIM,P40 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P40 Pro,P40 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P8,P8,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P8 Lite,P8 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P8 Lite Dual SIM,P8 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P9 Dual SIM,P9 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P9 Lite,P9 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P9 Lite 2017,P9 Lite 2017,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|P9 Lite Dual SIM,P9 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|XT,XT,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y,Y,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y3 II,Y3 II,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5,Y5,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 2017,Y5 2017,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 2018,Y5 2018,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 2018 Dual SIM,Y5 2018 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 2019,Y5 2019,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 2019 Dual SIM,Y5 2019 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 Dual SIM,Y5 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 II,Y5 II,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5 Lite 2017,Y5 Lite 2017,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5p,Y5p,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y5p Dual SIM,Y5p Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6,Y6,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6 2018,Y6 2018,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6 2018 Dual SIM,Y6 2018 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6 2019,Y6 2019,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6 2019 Dual SIM,Y6 2019 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6 II Dual SIM,Y6 II Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6 Prime 2018,Y6 Prime 2018,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6p,Y6p,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y6p Dual SIM,Y6p Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y7 2018,Y7 2018,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y7 2019,Y7 2019,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y7 2019 Dual SIM,Y7 2019 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y7p,Y7p,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y8s,Y8s,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y8s Dual SIM,Y8s Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9 2018,Y9 2018,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9 2018 Dual SIM,Y9 2018 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9 2019,Y9 2019,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9 2019 Dual SIM,Y9 2019 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9 Prime 2019,Y9 Prime 2019,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9 Prime 2019 Dual SIM,Y9 Prime 2019 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9s,Y9s,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Huawei|Y9s Dual SIM,Y9s Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Huawei
+Celulares y Teléfonos|Celulares y Smartphones|Incipio,Incipio,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Incipio|S5,S5,3,Celulares y Teléfonos|Celulares y Smartphones|Incipio
+Celulares y Teléfonos|Celulares y Smartphones|J1,J1,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|J2 Core,J2 Core,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|J3 (2018),J3 (2018),2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|J3 Emerge,J3 Emerge,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|J7,J7,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|J7 Pro,J7 Pro,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|J7 Star,J7 Star,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|JBL,JBL,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|K30,K30,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|K40,K40,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Kids Preferred,Kids Preferred,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Kids Preferred|S III Mini,S III Mini,3,Celulares y Teléfonos|Celulares y Smartphones|Kids Preferred
+Celulares y Teléfonos|Celulares y Smartphones|Kyocera,Kyocera,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Kyocera|Hydro VIBE,Hydro VIBE,3,Celulares y Teléfonos|Celulares y Smartphones|Kyocera
+Celulares y Teléfonos|Celulares y Smartphones|Kyocera|Hydro XTRM,Hydro XTRM,3,Celulares y Teléfonos|Celulares y Smartphones|Kyocera
+Celulares y Teléfonos|Celulares y Smartphones|LG,LG,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|LG|5X,5X,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Flex 2,Flex 2,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G2,G2,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G2 Mini,G2 Mini,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G3,G3,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G3 Beat,G3 Beat,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G4,G4,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G4 Beat,G4 Beat,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G4 Stylus,G4 Stylus,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G5,G5,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G6,G6,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G6+,G6+,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G7,G7,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G7 ThinQ,G7 ThinQ,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G7 ThinQ Dual SIM,G7 ThinQ Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|G8X ThinQ,G8X ThinQ,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|HD,HD,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K10,K10,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K10 (2017),K10 (2017),3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K20,K20,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K20 plus,K20 plus,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K4,K4,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K40,K40,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K40S,K40S,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K40S Dual SIM,K40S Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K41S,K41S,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K50,K50,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K50S,K50S,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K51S,K51S,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K61,K61,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K8,K8,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|K8 (2017),K8 (2017),3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Optimus G Pro Lite Dual,Optimus G Pro Lite Dual,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Optimus L90,Optimus L90,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Optimus Pro,Optimus Pro,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Optimus Zone,Optimus Zone,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Phoenix 3,Phoenix 3,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Rebel 4,Rebel 4,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Risio,Risio,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|V10,V10,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|V20,V20,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|V30,V30,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|V30+ Dual SIM,V30+ Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|V35 ThinQ,V35 ThinQ,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|V40 ThinQ Dual SIM,V40 ThinQ Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|Volt,Volt,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|X Cam,X Cam,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|X Power,X Power,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|LG|X Venture,X Venture,3,Celulares y Teléfonos|Celulares y Smartphones|LG
+Celulares y Teléfonos|Celulares y Smartphones|Lenovo,Lenovo,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Lenovo|K5,K5,3,Celulares y Teléfonos|Celulares y Smartphones|Lenovo
+Celulares y Teléfonos|Celulares y Smartphones|M,M,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|M31,M31,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Meizu,Meizu,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|C9,C9,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|M2,M2,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|M2 Note,M2 Note,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|M3 Note,M3 Note,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|M5 Note,M5 Note,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|M5s,M5s,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|MX2,MX2,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Meizu|MX6,MX6,3,Celulares y Teléfonos|Celulares y Smartphones|Meizu
+Celulares y Teléfonos|Celulares y Smartphones|Memoir,Memoir,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft,Microsoft,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|535,535,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|550,550,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|640,640,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|640 XL,640 XL,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|650,650,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|950,950,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Microsoft|950 XL,950 XL,3,Celulares y Teléfonos|Celulares y Smartphones|Microsoft
+Celulares y Teléfonos|Celulares y Smartphones|Motorola,Motorola,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|7,7,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|C,C,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|C Dual SIM,C Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|C Plus,C Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E,E,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E4,E4,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E4 Plus,E4 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E4 Plus Dual SIM,E4 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E5,E5,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E5 Dual SIM,E5 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E5 Play,E5 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E5 Plus,E5 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E6,E6,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E6 Play,E6 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E6 Play Dual SIM,E6 Play Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E6 Plus,E6 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E6 Plus Dual SIM,E6 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|E6s,E6s,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G Stylus,G Stylus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G1,G1,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G2,G2,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G3,G3,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G4,G4,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G4 Plus,G4 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G4 Plus Dual SIM,G4 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5,G5,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5 Dual SIM,G5 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5 Plus,G5 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5 Plus Dual SIM,G5 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5S,G5S,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5S Plus,G5S Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G5S Plus Dual SIM,G5S Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6,G6,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6 Dual SIM,G6 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6 Forge,G6 Forge,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6 Play,G6 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6 Play Dual SIM,G6 Play Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6 Plus,G6 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G6 Plus Dual SIM,G6 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7,G7,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Dual SIM,G7 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Play,G7 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Play Dual SIM,G7 Play Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Plus,G7 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Plus Dual SIM,G7 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Power,G7 Power,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G7 Power Dual SIM,G7 Power Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Dual SIM,G8 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Play,G8 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Play Dual SIM,G8 Play Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Plus,G8 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Plus Dual SIM,G8 Plus Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Power,G8 Power,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Power Dual SIM,G8 Power Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|G8 Power Lite,G8 Power Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|M,M,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|RAZR HD,RAZR HD,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|X,X,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|X Play,X Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|X4,X4,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|X4 Dual SIM,X4 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z,Z,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z Force,Z Force,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z Force Droid,Z Force Droid,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z Play,Z Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z Play Droid,Z Play Droid,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z Play Dual SIM,Z Play Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z2 Force,Z2 Force,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z2 Play,Z2 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z3 Play,Z3 Play,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z3 Play Dual SIM,Z3 Play Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Motorola|Z4,Z4,3,Celulares y Teléfonos|Celulares y Smartphones|Motorola
+Celulares y Teléfonos|Celulares y Smartphones|Neffos,Neffos,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Neffos|C5,C5,3,Celulares y Teléfonos|Celulares y Smartphones|Neffos
+Celulares y Teléfonos|Celulares y Smartphones|Neffos|C5 Max,C5 Max,3,Celulares y Teléfonos|Celulares y Smartphones|Neffos
+Celulares y Teléfonos|Celulares y Smartphones|Neffos|C5L,C5L,3,Celulares y Teléfonos|Celulares y Smartphones|Neffos
+Celulares y Teléfonos|Celulares y Smartphones|Neffos|C9,C9,3,Celulares y Teléfonos|Celulares y Smartphones|Neffos
+Celulares y Teléfonos|Celulares y Smartphones|Neffos|C9A,C9A,3,Celulares y Teléfonos|Celulares y Smartphones|Neffos
+Celulares y Teléfonos|Celulares y Smartphones|Neffos|X9,X9,3,Celulares y Teléfonos|Celulares y Smartphones|Neffos
+Celulares y Teléfonos|Celulares y Smartphones|Nokia,Nokia,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|1020,1020,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|1320,1320,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|1520,1520,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|5130,5130,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|520,520,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|530,530,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|5300,5300,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|620,620,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|625,625,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|630,630,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|635,635,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|640,640,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|6600,6600,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|6700,6700,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|720,720,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|735,735,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|800,800,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|820,820,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|830,830,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|900,900,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|920,920,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|925,925,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|930,930,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|C1-01,C1-01,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|C6-01,C6-01,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|E52,E52,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|E65,E65,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|E66,E66,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|E7,E7,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|E71,E71,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|E72,E72,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|Icon,Icon,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|N-Gage,N-Gage,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|N8,N8,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|N80,N80,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|N82,N82,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|N900,N900,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|N95,N95,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nokia|X3-02,X3-02,3,Celulares y Teléfonos|Celulares y Smartphones|Nokia
+Celulares y Teléfonos|Celulares y Smartphones|Nubia,Nubia,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|One,One,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|One Action Dual SIM,One Action Dual SIM,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|One Zoom Dual SIM,One Zoom Dual SIM,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Optimus L90,Optimus L90,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|P30 Pro Dual SIM,P30 Pro Dual SIM,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Pro,Pro,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S III,S III,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S III Mini,S III Mini,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S Plus,S Plus,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S10,S10,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S5,S5,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S5 Mini,S5 Mini,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|S6,S6,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|SE,SE,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Samsung,Samsung,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|10 Lite,10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|2020,2020,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A01,A01,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A01 Duos,A01 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A10,A10,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A10 Duos,A10 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A10e,A10e,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A10s,A10s,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A10s Duos,A10s Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A11,A11,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A11 Duos,A11 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A20,A20,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A20s,A20s,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A20s Duos,A20s Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A21s,A21s,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A21s Duos,A21s Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A3,A3,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A3 (2016),A3 (2016),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A3 (2017),A3 (2017),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A30,A30,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A30 Duos,A30 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A30s,A30s,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A30s Duos,A30s Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A31,A31,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A31 Duos,A31 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A40,A40,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A40 Duos,A40 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A5,A5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A5 (2016),A5 (2016),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A5 (2017),A5 (2017),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A50,A50,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A50 Duos,A50 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A51,A51,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A51 Duos,A51 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A6+ Duos,A6+ Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A60,A60,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A7,A7,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A7 (2016),A7 (2016),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A7 (2017),A7 (2017),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A7 (2018),A7 (2018),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A7 (2018) Duos,A7 (2018) Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A70,A70,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A70 Duos,A70 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A71,A71,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A71 Duos,A71 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A8,A8,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A8 (2018),A8 (2018),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A8+,A8+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A80,A80,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A80 Duos,A80 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A9,A9,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A9 (2018),A9 (2018),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|A9 (2018) Duos,A9 (2018) Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Ace,Ace,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Ace 3,Ace 3,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Ace 4,Ace 4,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Alfa,Alfa,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Alpha,Alpha,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|C5,C5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|C7,C7,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|C9 Pro,C9 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Contour,Contour,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Core 2,Core 2,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Core Prime,Core Prime,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Express,Express,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Express 3,Express 3,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Express Prime,Express Prime,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Fit,Fit,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Fold,Fold,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Fold 5G,Fold 5G,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Forever,Forever,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|G5,G5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Grand,Grand,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Grand 2,Grand 2,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Grand Neo,Grand Neo,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J1,J1,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J2,J2,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J2 Core,J2 Core,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J2 Core Duos,J2 Core Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J2 Prime,J2 Prime,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J2 Prime Duos,J2 Prime Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J2 Pro (2018) Duos,J2 Pro (2018) Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J3 (2018),J3 (2018),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J3 Emerge,J3 Emerge,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J3 Prime,J3 Prime,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J4+,J4+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5,J5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 (2016) Duos,J5 (2016) Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 (2017),J5 (2017),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 Duos,J5 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 Metal,J5 Metal,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 Prime,J5 Prime,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 Prime Duos,J5 Prime Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 Pro,J5 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J5 Pro Duos,J5 Pro Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J6,J6,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7,J7,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7 (2016),J7 (2016),3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7 Duos,J7 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7 Prime,J7 Prime,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7 Prime Duos,J7 Prime Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7 Pro,J7 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J7 Sky Pro,J7 Sky Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J8,J8,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|J8 Duos,J8 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Lite,Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|M10,M10,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|M10 Duos,M10 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|M20,M20,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|M30s,M30s,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|M31,M31,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Mega 6.3,Mega 6.3,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Metrix 4G,Metrix 4G,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Mini,Mini,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Nexus,Nexus,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note,Note,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note 2,Note 2,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note 5,Note 5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note 8,Note 8,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note Edge,Note Edge,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note10,Note10,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note10 Duos,Note10 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note10 Lite,Note10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note10 Lite Duos,Note10 Lite Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note10+,Note10+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note10+ Duos,Note10+ Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note3,Note3,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note3 Neo,Note3 Neo,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note4,Note4,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note5,Note5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note5 Duos,Note5 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note8,Note8,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note8 Duos,Note8 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note9,Note9,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Note9 Duos,Note9 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Prevail,Prevail,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Pro,Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|R,R,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S,S,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S Duos,S Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S II,S II,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S III,S III,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S III Mini,S III Mini,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S Plus,S Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10,S10,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10 5G,S10 5G,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10 Duos,S10 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10 Lite Duos,S10 Lite Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10+,S10+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10+ Duos,S10+ Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S10e,S10e,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20,S20,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20 Duos,S20 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20 Ultra,S20 Ultra,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20 Ultra 5G Duos,S20 Ultra 5G Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20 Ultra Duos,S20 Ultra Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20+,S20+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S20+ Duos,S20+ Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S4,S4,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S4 Mini,S4 Mini,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S5,S5,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S5 Mini,S5 Mini,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S5 Neo,S5 Neo,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S5 New Edition,S5 New Edition,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S6,S6,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S6 Edge,S6 Edge,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S7,S7,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S7 Active,S7 Active,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S7 Edge,S7 Edge,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S7 edge,S7 edge,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S8,S8,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S8 Active,S8 Active,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S8 Duos,S8 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S8+,S8+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S8+ Duos,S8+ Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S9,S9,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S9 Duos,S9 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S9+,S9+,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|S9+ Duos,S9+ Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Star,Star,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Star Duos,Star Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|W,W,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Y,Y,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Y Duos,Y Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Young,Young,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Samsung|Z Flip,Z Flip,3,Celulares y Teléfonos|Celulares y Smartphones|Samsung
+Celulares y Teléfonos|Celulares y Smartphones|Sony,Sony,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Sony|1,1,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|1 Dual SIM,1 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|10,10,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|10 Dual SIM,10 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|5,5,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|E5 Dual SIM,E5 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|L1,L1,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|M4 Aqua,M4 Aqua,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|M5,M5,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|W200,W200,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|X Compact,X Compact,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XA Ultra,XA Ultra,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XA1,XA1,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XA2 Dual SIM,XA2 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XZ,XZ,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XZ2 Dual SIM,XZ2 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XZ2 Premium Dual SIM,XZ2 Premium Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|XZ3 Dual SIM,XZ3 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|Z,Z,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|Z2,Z2,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|Z5,Z5,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|Z5 Premium,Z5 Premium,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Sony|Z5 Premium Dual,Z5 Premium Dual,3,Celulares y Teléfonos|Celulares y Smartphones|Sony
+Celulares y Teléfonos|Celulares y Smartphones|Spigen,Spigen,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Spigen|P20,P20,3,Celulares y Teléfonos|Celulares y Smartphones|Spigen
+Celulares y Teléfonos|Celulares y Smartphones|Tank,Tank,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Turbo,Turbo,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Ulefone,Ulefone,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Ulefone|Armor,Armor,3,Celulares y Teléfonos|Celulares y Smartphones|Ulefone
+Celulares y Teléfonos|Celulares y Smartphones|Ulefone|Armor X5,Armor X5,3,Celulares y Teléfonos|Celulares y Smartphones|Ulefone
+Celulares y Teléfonos|Celulares y Smartphones|Ultra,Ultra,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|V30,V30,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|X,X,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|X Venture,X Venture,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|X4,X4,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi,Xiaomi,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|10,10,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|10 Dual SIM,10 Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|10 Lite,10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|10 Pro,10 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|10 Pro Dual SIM,10 Pro Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|2,2,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|2 Pro,2 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|3,3,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|3S,3S,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|4,4,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|4 Pro,4 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|4A,4A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|4X,4X,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|5,5,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|5 Plus,5 Plus,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|5A,5A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|6,6,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|6 Pro,6 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|6A,6A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|7,7,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|7A,7A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|7A (12 Mpx),7A (12 Mpx),3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|7A (13 Mpx),7A (13 Mpx),3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|8,8,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|8 Lite,8 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|8 Pro,8 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|8 SE,8 SE,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|8A,8A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9,9,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9 Lite,9 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9 SE,9 SE,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9A,9A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9C,9C,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9T,9T,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|9T Pro,9T Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|A1,A1,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|A2,A2,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|A2 Lite,A2 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|A3,A3,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|A7,A7,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Black Shark,Black Shark,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Black Shark 3,Black Shark 3,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Lite,Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Max,Max,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Max 3,Max 3,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Mix,Mix,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Mix 2,Mix 2,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Mix 3,Mix 3,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note,Note,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 10,Note 10,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 10 Lite,Note 10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 10 Pro,Note 10 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 2,Note 2,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 3 Pro,Note 3 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 4 (Snapdragon 625),Note 4 (Snapdragon 625),3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 4G,Note 4G,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 5,Note 5,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 5 Pro,Note 5 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 5A,Note 5A,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 6 Pro,Note 6 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 7 (48 Mpx),Note 7 (48 Mpx),3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 8,Note 8,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 8 Pro,Note 8 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 8T,Note 8T,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 9,Note 9,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 9 Pro,Note 9 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note 9S,Note 9S,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note10 Duos,Note10 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note10 Lite,Note10 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note4,Note4,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note8 Duos,Note8 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note9,Note9,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Note9 Duos,Note9 Duos,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Play,Play,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|Pro,Pro,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Xiaomi|S2,S2,3,Celulares y Teléfonos|Celulares y Smartphones|Xiaomi
+Celulares y Teléfonos|Celulares y Smartphones|Z5,Z5,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|ZTE,ZTE,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|10 Pro,10 Pro,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|A3,A3,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|A3 Lite,A3 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|A3 Lite Dual SIM,A3 Lite Dual SIM,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|Kis,Kis,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|L130,L130,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|L8,L8,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|M2,M2,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|M2 Lite,M2 Lite,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|Max XL,Max XL,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|Red Magic,Red Magic,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|Red Magic Mars,Red Magic Mars,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|V Smart,V Smart,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|V6,V6,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|V8,V8,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|V9,V9,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|X,X,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|X 3,X 3,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|Z18,Z18,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|ZTE|Zmax Pro,Zmax Pro,3,Celulares y Teléfonos|Celulares y Smartphones|ZTE
+Celulares y Teléfonos|Celulares y Smartphones|Zoom,Zoom,2,Celulares y Teléfonos|Celulares y Smartphones
+Celulares y Teléfonos|Celulares y Smartphones|Zoom|202,202,3,Celulares y Teléfonos|Celulares y Smartphones|Zoom
+Celulares y Teléfonos|Celulares y Smartphones|iPhone XS Dual SIM,iPhone XS Dual SIM,2,Celulares y Teléfonos|Celulares y Smartphones
